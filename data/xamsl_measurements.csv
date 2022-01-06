@@ -1,0 +1,329 @@
+run, pmt_bottom_voltage [V], pmt_top_voltage [V], Notes
+283, -850, -850, LXe filling
+284, -850, -850, LXe filling-reci on/getter off
+285, -850, -850, LXe filling-reci on/getter off
+286, -850, -850, LXe filling-reci on/getter off
+287, -850, -850, LXe filling-reci on/getter off
+288, -850, -850, LXe filling-reci on/getter off
+289, -650, -650, LXe filling-HV scan reci on/getter off
+290, -700, -700, LXe filling-HV scan reci on/getter off
+291, -750, -750, LXe filling-HV scan reci on/getter off
+292, -800, -800, LXe filling-HV scan reci on/getter off
+293, -650, -650, LXe filling-Radon injection reci on/getter off
+294, -650, -650, LXe filling-reci on/getter off
+295, -650, -650, LXe filling-reci on/getter off
+296, -650, -650, LXe filling-reci off/getter off
+297, -650, -650, LXe filling-reci off/getter off
+298, -650, -650, LXe filling-reci off/getter off
+299, -650, -650, LXe filling-reci off/getter off
+300, -650, -650, LXe filling-reci off/getter off
+301, -650, -650, LXe filling-reci off/getter off
+302, -650, -650, LXe filling-reci off/getter off
+303, -650, -650, LXe filling-reci off/getter off
+304, -650, -650, LXe filling-reci off/getter off
+305, -650, -650, LXe filling-reci off/getter off
+306, -650, -650, LXe filling-reci off/getter off
+307, -800, -800, LXe filling-reci off/getter off
+308, -850, -850, LXe filling-reci off/getter off
+309, -850, -850, LXe filling-reci off/getter off
+310, -850, -850, LXe filling-reci off/getter off
+311, -850, -850, LXe filling-reci off/getter off
+312, -850, -890, LXe filling-reci off/getter off
+313, -850, -890, LXe filling-reci off/getter off
+314, -850, -890, LXe filling-reci off/getter off
+315, -750, -890, LXe filling-reci off/getter off
+316, -750, -890, LXe filling-reci off/getter off
+317, -780, -670, LXe filling-reci off/getter off
+318, -850, -730, LXe filling-reci off/getter off
+319, -880, -780, LXe filling-reci off/getter off
+320, -750, -750, LXe filling-reci off/getter off
+322, -780, -780, LXe filling-reci off/getter off
+323, -780, -780, LXe filling-reci off/getter off
+324, -780, -780, LXe filling-reci off/getter off
+325, -780, -780, LXe filling-reci off/getter off
+326, -780, -780, LXe filling-reci off/getter off
+327, -780, -780, LXe filling-reci off/getter off
+328, -780, -780, LXe filling-reci off/getter off
+333, -640, -840, LXe filling-reci off/getter off
+334, -640, -840, LXe filling-reci off/getter off
+335, -640, -840, LXe filling-reci off/getter off
+336, -640, -840, LXe filling-reci off/getter off
+337, -640, -840, LXe filling-reci off/getter off
+338, -600, -780, reci off/getter off
+339, -600, -780, reci off/getter off
+340, -600, -780, reci off/getter off
+341, -600, -780, reci off/getter off
+342, -600, -780, reci off/getter off
+343, -600, -780, reci off/getter off
+344, -600, -780, reci off/getter off
+345, -600, -780, reci off/getter off
+346, -600, -780, reci off/getter off
+347, -600, -780, reci off/getter off
+348, -600, -780, reci off/getter off
+349, -600, -670, reci off/getter off
+350, -600, -670, reci off/getter off
+351, -600, -670, reci off/getter off
+352, -600, -670, reci on/getter off
+353, -600, -670, reci on/getter off
+354, -600, -670, reci on/getter on
+355, -600, -670, reci on/getter on
+356, -600, -670, reci on/getter on
+356, -600, -670, reci on/getter on
+357, -600, -670, reci on/getter on
+358, -600, -670, reci on/getter on
+359, -600, -670, reci on/getter on
+360, -600, -670, reci on/getter on
+361, -600, -670, reci on/getter on
+362, -600, -670, reci on/getter on
+363, -600, -670, reci on/getter on
+364, -600, -670, reci on/getter on
+365, -600, -670, reci on/getter on
+366, -600, -670, reci on/getter on
+367, -600, -670, reci on/getter on
+368, -600, -670, reci on/getter on
+369, -600, -670, reci on/getter on
+370, -600, -670, reci on/getter on
+371, -600, -670, reci on/getter on
+372, -600, -670, reci on/getter on
+373, -600, -670, reci on/getter on
+374, -600, -670, reci on/getter on
+375, -600, -670, reci on/getter on
+376, -600, -670, reci on/getter on
+377, -600, -670, reci on/getter on
+378, -600, -670, reci on/getter on
+379, -600, -670, reci on/getter on
+380, -600, -670, reci on/getter on
+381, -600, -670, reci on/getter on
+382, -600, -670, reci on/getter on
+383, -600, -670, reci on/getter on
+384, -600, -670, reci on/getter on
+385, -600, -670, reci on/getter on
+386, -600, -670, reci on/getter on
+387, -600, -670, reci on/getter on
+388, -600, -670, reci on/getter on
+389, -600, -670, reci on/getter on
+390, -600, -670, reci on/getter on
+391, -600, -670, reci on/getter on
+392, -600, -670, reci on/getter on
+393, -600, -670, reci on/getter on
+394, -600, -670, reci on/getter on
+395, -600, -670, reci on/getter on
+396, -600, -670, reci on/getter on
+397, -600, -670, reci on/getter on
+398, -600, -670, reci on/getter on
+399, -600, -670, reci on/getter on
+400, -600, -670, reci on/getter on
+401, -600, -670, reci on/getter on
+402, -600, -670, reci on/getter on
+403, -600, -670, reci on/getter on
+404, -600, -670, reci on/getter on
+405, -600, -670, reci on/getter on
+406, -600, -670, reci on/getter on
+407, -600, -670, reci on/getter on
+408, -600, -670, reci on/getter on
+409, -600, -670, reci on/getter on
+410, -600, -670, reci on/getter on
+411, -600, -670, reci on/getter on
+412, -600, -670, reci on/getter on
+413, -600, -670, reci on/getter on
+414, -600, -670, reci on/getter on
+415, -600, -670, reci on/getter on
+416, -600, -670, reci on/getter on
+417, -600, -670, reci on/getter on
+418, -600, -670, reci on/getter on
+419, -600, -670, reci on/getter on
+420, -600, -670, reci on/getter on
+421, -600, -670, reci on/getter on
+422, -600, -670, reci on/getter on
+423, -600, -670, reci on/getter on
+424, -600, -670, reci on/getter on
+425, -600, -670, reci on/getter on
+426, -600, -670, reci on/getter on
+427, -600, -670, reci on/getter on
+428, -600, -670, reci on/getter on
+429, -600, -670, reci on/getter on
+430, -600, -670, reci on/getter on
+431, -600, -670, reci on/getter on
+432, -600, -670, reci on/getter on
+433, -600, -670, reci on/getter on
+434, -600, -670, reci on/getter on
+435, -600, -670, reci on/getter on
+436, -600, -670, reci on/getter on
+437, -600, -670, reci on/getter on
+438, -600, -670, reci on/getter on
+439, -600, -670, reci on/getter on
+440, -600, -670, reci on/getter on
+441, -600, -670, reci on/getter on
+442, -600, -670, reci on/getter on
+443, -600, -670, reci on/getter on
+444, -600, -670, reci on/getter on
+445, -600, -670, reci on/getter on
+446, -600, -670, reci on/getter on
+447, -600, -670, reci on/getter on
+448, -600, -670, reci on/getter on
+449, -600, -670, reci on/getter on
+450, -600, -670, reci on/getter on
+451, -600, -670, reci on/getter on
+452, -600, -670, reci on/getter on
+453, -600, -670, reci on/getter on
+454, -600, -670, reci on/getter on
+455, -600, -670, reci on/getter on
+456, -600, -670, reci on/getter on
+457, -600, -670, reci on/getter on
+458, -600, -670, reci on/getter on
+459, -600, -670, reci on/getter on
+460, -600, -670, reci on/getter on
+461, -600, -670, reci on/getter on
+462, -600, -670, reci on/getter on
+463, -600, -670, reci on/getter on
+464, -600, -670, reci on/getter on
+465, -600, -670, reci on/getter on
+466, -600, -670, reci on/getter on
+467, -600, -670, reci on/getter on
+468, -600, -670, reci on/getter on
+469, -600, -670, reci on/getter on
+470, -600, -670, reci on/getter on
+471, -600, -670, reci on/getter on
+472, -600, -670, reci on/getter on
+473, -600, -670, reci on/getter on
+474, -600, -670, reci on/getter on
+475, -600, -670, reci on/getter on
+476, -600, -670, reci on/getter on
+477, -600, -670, reci on/getter on
+478, -600, -670, reci on/getter on
+479, -600, -670, reci on/getter on
+480, -600, -670, reci on/getter on
+481, -600, -670, reci on/getter on
+482, -580, -580, reci on/getter on
+483, -580, -580, reci on/getter on
+484, -580, -580, reci on/getter on
+485, -580, -580, reci on/getter on
+486, -580, -580, reci on/getter on-digitizer threshold 50mV
+487, -580, -580, reci on/getter on-digitizer threshold 100mV
+488, -580, -580, reci on/getter on-digitizer threshold 200mV
+489, -580, -580, reci on/getter on-digitizer threshold 200mV
+490, -580, -580, reci on/getter on
+493, -500, -590, reci on/getter on-digitizer threshold 100mV
+494, -520, -590, reci on/getter on-digitizer threshold 100mV
+495, -520, -590, reci on/getter on-digitizer threshold 100mV
+496, -520, -590, reci on/getter on-digitizer threshold 100mV
+497, -520, -590, reci on/getter on-digitizer threshold 100mV
+498, -520, -590, reci on/getter on-digitizer threshold 100mV
+499, -520, -590, reci on/getter on-digitizer threshold 100mV
+500, -520, -590, reci on/getter on-digitizer threshold 100mV
+501, -520, -590, reci on/getter on-digitizer threshold 100mV
+502, -520, -590, reci on/getter on-digitizer threshold 100mV
+503, -520, -590, reci on/getter on-digitizer threshold 200mV
+504, -520, -590, reci on/getter on-digitizer threshold 200mV
+505, -520, -590, reci on/getter on-digitizer threshold 200mV
+506, -520, -590, reci on/getter on-digitizer threshold 200mV
+507, -520, -590, reci on/getter on-digitizer threshold 200mV
+508, -520, -590, reci on/getter on-digitizer threshold 200mV
+509, -520, -590, reci on/getter on-digitizer threshold 200mV
+510, -520, -590, reci on/getter on-digitizer threshold 200mV
+511, -520, -590, reci on/getter on-digitizer threshold 200mV
+512, -520, -590, reci on/getter on-digitizer threshold 200mV
+513, -520, -590, reci on/getter on-digitizer threshold 200mV
+514, -520, -590, reci on/getter on-digitizer threshold 200mV
+515, -520, -590, reci on/getter on-digitizer threshold 200mV
+517, -520, -590, reci on/getter on-digi th 200mV-ch th 100mV
+518, -520, -590, reci on/getter on-digi th 200mV-ch th 100mV
+519, -520, -590, reci on/getter on-digi th 200mV-ch th 100mV
+520, -520, -590, reci on/getter on-digi th 200mV-ch th 100mV
+521, -520, -590, reci on/getter on-digi th 200mV-ch th 100mV
+525, -550, -550, reci on/getter on-low threshold
+528, -550, -550, reci on/getter on-digitizer threshold 200mV
+530, -650, -650, reci on/getter on-low threshold
+531, -650, -650, reci on/getter on-digitizer threshold 200mV
+532, -700, -700, reci on/getter on-low threshold
+534, -700, -700, reci on/getter on-digitizer threshold 200mV
+536, -700, -700, reci on/getter on-digi th 200mV-50ohm terminator
+537, -700, -700, reci on/getter on-digi th 200mV-50ohm terminator
+538, -700, -700, reci on/getter off-digi th 200mV
+539, -700, -700, reci on/getter off-digi th 200mV
+540, -700, -700, reci on/getter off-digi th 200mV
+541, -700, -700, reci off/getter off-digi th 200mV
+542, -700, -700, reci off/getter off-digi th 200mV
+543, -700, -700, reci off/getter off-digi th 200mV
+544, -700, -700, reci off/getter off-digi th 200mV
+545, -700, -700, reci off/getter off-digi th 200mV
+546, -700, -700, reci off/getter off-digi th 200mV
+547, -700, -700, reci off/getter off-digi th 200mV
+548, -700, -700, reci off/getter off-digi th 200mV
+549, -700, -700, reci off/getter off-digi th 200mV
+550, -700, -700, reci off/getter off-digi th 200mV
+551, -700, -700, reci off/getter off-digi th 200mV
+552, -700, -700, reci off/getter off-digi th 200mV
+553, -700, -700, reci off/getter off-digi th 200mV
+554, -700, -700, reci off/getter off-digi th 200mV
+555, -700, -700, reci off/getter off-digi th 200mV
+556, -700, -700, reci off/getter off-digi th 200mV
+557, -700, -700, reci off/getter off-digi th 200mV
+558, -700, -700, reci off/getter off-digi th 200mV
+559, -700, -700, reci off/getter off-digi th 200mV
+560, -700, -700, reci off/getter off-digi th 200mV
+560, -700, -700, reci off/getter off-digi th 200mV
+561, -700, -700, reci off/getter off-digi th 200mV
+562, -700, -700, reci off/getter off-digi th 200mV
+563, -700, -700, reci off/getter off-digi th 200mV
+564, -700, -700, reci off/getter off-digi th 200mV
+565, -700, -700, reci off/getter off-digi th 200mV
+566, -700, -700, reci off/getter off-digi th 200mV
+567, -700, -700, reci on/getter on-digi th 200mV
+568, -520, -590, reci on/getter on-digi th 200mV
+569, -520, -590, reci on/getter on-digi th 200mV-new HV cables
+570, -620, -740, reci on/getter on-digi th 500mV-new HV cables
+571, -520, -590, reci on/getter on-digi th 200mV-new signal cables
+572, -520, -590, reci on/getter on-digi th 200mV-new signal cables-50ohm terminator
+574, -520, -590, reci on/getter on
+575, -520, -590, reci on/getter on
+576, -520, -590, reci on/getter off
+577, -520, -590, reci on/getter off
+578, -520, -590, reci off/getter off
+579, -520, -590, reci off/getter off
+580, -520, -590, reci off/getter off
+581, -520, -590, reci off/getter off
+582, -520, -590, reci off/getter off
+583, -520, -590, reci off/getter off
+584, -520, -590, reci off/getter off
+585, -520, -590, reci off/getter off
+586, -520, -590, reci off/getter off
+587, -520, -590, reci off/getter off
+588, -520, -590, reci off/getter off
+590, -520, -590, reci off/getter off
+591, -520, -590, reci off/getter off
+592, -520, -590, reci on/getter off
+593, -520, -590, reci on/getter off
+594, -520, -590, reci on/getter on
+595, -520, -590, reci on/getter on
+596, -520, -590, reci on/getter on
+597, -520, -590, reci on/getter on
+598, -520, -590, reci on/getter on
+599, -520, -590, reci on/getter on
+600, -600, -600, reci on/getter on
+601, -600, -600, reci on/getter on
+602, -720, -720, reci on/getter on
+603, -600, -600, reci on/getter on
+604, -680, -680, reci on/getter on
+605, -780, -780, reci on/getter on
+606, -620, -720, reci on/getter on
+607, -620, -720, reci on/getter on
+608, -620, -720, reci on/getter on
+609, -620, -720, reci on/getter on
+610, -620, -720, reci on/getter on
+611, -620, -720, reci on/getter on
+612, -620, -720, reci on/getter on
+613, -610, -680, reci on/getter on
+614, -610, -680, reci on/getter on
+615, -610, -680, reci on/getter on
+616, -610, -680, reci on/getter on
+617, -680, -680, reci on/getter on
+618, -680, -680, reci on/getter on
+620, -680, -680, reci on/getter on
+621, -680, -680, reci on/getter on
+622, -680, -750, reci on/getter on
+623, -680, -780, reci on/getter on
+624, -680, -800, reci on/getter on
+625, -680, -800, reci on/getter on
+626, -670, -790, reci on/getter on
+627, -680, -780, reci on/getter on
