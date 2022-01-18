@@ -1,0 +1,1710 @@
+run,pmt_bottom_v,pmt_top_v,notes
+283, -850, -850, LXe filling
+284, -850, -850, LXe filling-reci on/getter off
+285, -850, -850, LXe filling-reci on/getter off
+286, -850, -850, LXe filling-reci on/getter off
+287, -850, -850, LXe filling-reci on/getter off
+288, -850, -850, LXe filling-reci on/getter off
+289, -650, -650, LXe filling-HV scan reci on/getter off
+290, -700, -700, LXe filling-HV scan reci on/getter off
+291, -750, -750, LXe filling-HV scan reci on/getter off
+292, -800, -800, LXe filling-HV scan reci on/getter off
+293, -650, -650, LXe filling-Radon injection reci on/getter off
+294, -650, -650, LXe filling-reci on/getter off
+295, -650, -650, LXe filling-reci on/getter off
+296, -650, -650, LXe filling-reci off/getter off
+297, -650, -650, LXe filling-reci off/getter off
+298, -650, -650, LXe filling-reci off/getter off
+299, -650, -650, LXe filling-reci off/getter off
+300, -650, -650, LXe filling-reci off/getter off
+301, -650, -650, LXe filling-reci off/getter off
+302, -650, -650, LXe filling-reci off/getter off
+303, -650, -650, LXe filling-reci off/getter off
+304, -650, -650, LXe filling-reci off/getter off
+305, -650, -650, LXe filling-reci off/getter off
+306, -650, -650, LXe filling-reci off/getter off
+307, -800, -800, LXe filling-reci off/getter off
+308, -850, -850, LXe filling-reci off/getter off
+309, -850, -850, LXe filling-reci off/getter off
+310, -850, -850, LXe filling-reci off/getter off
+311, -850, -850, LXe filling-reci off/getter off
+312, -850, -890, LXe filling-reci off/getter off
+313, -850, -890, LXe filling-reci off/getter off
+314, -850, -890, LXe filling-reci off/getter off
+315, -750, -890, LXe filling-reci off/getter off
+316, -750, -890, LXe filling-reci off/getter off
+317, -780, -670, LXe filling-reci off/getter off
+318, -850, -730, LXe filling-reci off/getter off
+319, -880, -780, LXe filling-reci off/getter off
+320, -750, -750, LXe filling-reci off/getter off
+322, -780, -780, LXe filling-reci off/getter off
+323, -780, -780, LXe filling-reci off/getter off
+324, -780, -780, LXe filling-reci off/getter off
+325, -780, -780, LXe filling-reci off/getter off
+326, -780, -780, LXe filling-reci off/getter off
+327, -780, -780, LXe filling-reci off/getter off
+328, -780, -780, LXe filling-reci off/getter off
+333, -640, -840, LXe filling-reci off/getter off
+334, -640, -840, LXe filling-reci off/getter off
+335, -640, -840, LXe filling-reci off/getter off
+336, -640, -840, LXe filling-reci off/getter off
+337, -640, -840, LXe filling-reci off/getter off
+338, -600, -780, reci off/getter off
+339, -600, -780, reci off/getter off
+340, -600, -780, reci off/getter off
+341, -600, -780, reci off/getter off
+342, -600, -780, reci off/getter off
+343, -600, -780, reci off/getter off
+344, -600, -780, reci off/getter off
+345, -600, -780, reci off/getter off
+346, -600, -780, reci off/getter off
+347, -600, -780, reci off/getter off
+348, -600, -780, reci off/getter off
+349, -600, -670, reci off/getter off
+350, -600, -670, reci off/getter off
+351, -600, -670, reci off/getter off
+352, -600, -670, reci on/getter off
+353, -600, -670, reci on/getter off
+354, -600, -670, reci on/getter on
+355, -600, -670, reci on/getter on
+356, -600, -670, reci on/getter on
+356, -600, -670, reci on/getter on
+357, -600, -670, reci on/getter on
+358, -600, -670, reci on/getter on
+359, -600, -670, reci on/getter on
+360, -600, -670, reci on/getter on
+361, -600, -670, reci on/getter on
+362, -600, -670, reci on/getter on
+363, -600, -670, reci on/getter on
+364, -600, -670, reci on/getter on
+365, -600, -670, reci on/getter on
+366, -600, -670, reci on/getter on
+367, -600, -670, reci on/getter on
+368, -600, -670, reci on/getter on
+369, -600, -670, reci on/getter on
+370, -600, -670, reci on/getter on
+371, -600, -670, reci on/getter on
+372, -600, -670, reci on/getter on
+373, -600, -670, reci on/getter on
+374, -600, -670, reci on/getter on
+375, -600, -670, reci on/getter on
+376, -600, -670, reci on/getter on
+377, -600, -670, reci on/getter on
+378, -600, -670, reci on/getter on
+379, -600, -670, reci on/getter on
+380, -600, -670, reci on/getter on
+381, -600, -670, reci on/getter on
+382, -600, -670, reci on/getter on
+383, -600, -670, reci on/getter on
+384, -600, -670, reci on/getter on
+385, -600, -670, reci on/getter on
+386, -600, -670, reci on/getter on
+387, -600, -670, reci on/getter on
+388, -600, -670, reci on/getter on
+389, -600, -670, reci on/getter on
+390, -600, -670, reci on/getter on
+391, -600, -670, reci on/getter on
+392, -600, -670, reci on/getter on
+393, -600, -670, reci on/getter on
+394, -600, -670, reci on/getter on
+395, -600, -670, reci on/getter on
+396, -600, -670, reci on/getter on
+397, -600, -670, reci on/getter on
+398, -600, -670, reci on/getter on
+399, -600, -670, reci on/getter on
+400, -600, -670, reci on/getter on
+401, -600, -670, reci on/getter on
+402, -600, -670, reci on/getter on
+403, -600, -670, reci on/getter on
+404, -600, -670, reci on/getter on
+405, -600, -670, reci on/getter on
+406, -600, -670, reci on/getter on
+407, -600, -670, reci on/getter on
+408, -600, -670, reci on/getter on
+409, -600, -670, reci on/getter on
+410, -600, -670, reci on/getter on
+411, -600, -670, reci on/getter on
+412, -600, -670, reci on/getter on
+413, -600, -670, reci on/getter on
+414, -600, -670, reci on/getter on
+415, -600, -670, reci on/getter on
+416, -600, -670, reci on/getter on
+417, -600, -670, reci on/getter on
+418, -600, -670, reci on/getter on
+419, -600, -670, reci on/getter on
+420, -600, -670, reci on/getter on
+421, -600, -670, reci on/getter on
+422, -600, -670, reci on/getter on
+423, -600, -670, reci on/getter on
+424, -600, -670, reci on/getter on
+425, -600, -670, reci on/getter on
+426, -600, -670, reci on/getter on
+427, -600, -670, reci on/getter on
+428, -600, -670, reci on/getter on
+429, -600, -670, reci on/getter on
+430, -600, -670, reci on/getter on
+431, -600, -670, reci on/getter on
+432, -600, -670, reci on/getter on
+433, -600, -670, reci on/getter on
+434, -600, -670, reci on/getter on
+435, -600, -670, reci on/getter on
+436, -600, -670, reci on/getter on
+437, -600, -670, reci on/getter on
+438, -600, -670, reci on/getter on
+439, -600, -670, reci on/getter on
+440, -600, -670, reci on/getter on
+441, -600, -670, reci on/getter on
+442, -600, -670, reci on/getter on
+443, -600, -670, reci on/getter on
+444, -600, -670, reci on/getter on
+445, -600, -670, reci on/getter on
+446, -600, -670, reci on/getter on
+447, -600, -670, reci on/getter on
+448, -600, -670, reci on/getter on
+449, -600, -670, reci on/getter on
+450, -600, -670, reci on/getter on
+451, -600, -670, reci on/getter on
+452, -600, -670, reci on/getter on
+453, -600, -670, reci on/getter on
+454, -600, -670, reci on/getter on
+455, -600, -670, reci on/getter on
+456, -600, -670, reci on/getter on
+457, -600, -670, reci on/getter on
+458, -600, -670, reci on/getter on
+459, -600, -670, reci on/getter on
+460, -600, -670, reci on/getter on
+461, -600, -670, reci on/getter on
+462, -600, -670, reci on/getter on
+463, -600, -670, reci on/getter on
+464, -600, -670, reci on/getter on
+465, -600, -670, reci on/getter on
+466, -600, -670, reci on/getter on
+467, -600, -670, reci on/getter on
+468, -600, -670, reci on/getter on
+469, -600, -670, reci on/getter on
+470, -600, -670, reci on/getter on
+471, -600, -670, reci on/getter on
+472, -600, -670, reci on/getter on
+473, -600, -670, reci on/getter on
+474, -600, -670, reci on/getter on
+475, -600, -670, reci on/getter on
+476, -600, -670, reci on/getter on
+477, -600, -670, reci on/getter on
+478, -600, -670, reci on/getter on
+479, -600, -670, reci on/getter on
+480, -600, -670, reci on/getter on
+481, -600, -670, reci on/getter on
+482, -580, -580, reci on/getter on
+483, -580, -580, reci on/getter on
+484, -580, -580, reci on/getter on
+485, -580, -580, reci on/getter on
+486, -580, -580, reci on/getter on-digitizer threshold 50mV
+487, -580, -580, reci on/getter on-digitizer threshold 100mV
+488, -580, -580, reci on/getter on-digitizer threshold 200mV
+489, -580, -580, reci on/getter on-digitizer threshold 200mV
+490, -580, -580, reci on/getter on
+493, -500, -590, reci on/getter on-digitizer threshold 100mV
+494, -520, -590, reci on/getter on-digitizer threshold 100mV
+495, -520, -590, reci on/getter on-digitizer threshold 100mV
+496, -520, -590, reci on/getter on-digitizer threshold 100mV
+497, -520, -590, reci on/getter on-digitizer threshold 100mV
+498, -520, -590, reci on/getter on-digitizer threshold 100mV
+499, -520, -590, reci on/getter on-digitizer threshold 100mV
+500, -520, -590, reci on/getter on-digitizer threshold 100mV
+501, -520, -590, reci on/getter on-digitizer threshold 100mV
+502, -520, -590, reci on/getter on-digitizer threshold 100mV
+503, -520, -590, reci on/getter on-digitizer threshold 200mV
+504, -520, -590, reci on/getter on-digitizer threshold 200mV
+505, -520, -590, reci on/getter on-digitizer threshold 200mV
+506, -520, -590, reci on/getter on-digitizer threshold 200mV
+507, -520, -590, reci on/getter on-digitizer threshold 200mV
+508, -520, -590, reci on/getter on-digitizer threshold 200mV
+509, -520, -590, reci on/getter on-digitizer threshold 200mV
+510, -520, -590, reci on/getter on-digitizer threshold 200mV
+511, -520, -590, reci on/getter on-digitizer threshold 200mV
+512, -520, -590, reci on/getter on-digitizer threshold 200mV
+513, -520, -590, reci on/getter on-digitizer threshold 200mV
+514, -520, -590, reci on/getter on-digitizer threshold 200mV
+515, -520, -590, reci on/getter on-digitizer threshold 200mV
+517, -520, -590, reci on/getter on-digi th 200mV-ch th 100mV
+518, -520, -590, reci on/getter on-digi th 200mV-ch th 100mV
+519, -520, -590, reci on/getter on-digi th 200mV-ch th 100mV
+520, -520, -590, reci on/getter on-digi th 200mV-ch th 100mV
+521, -520, -590, reci on/getter on-digi th 200mV-ch th 100mV
+525, -550, -550, reci on/getter on-low threshold
+528, -550, -550, reci on/getter on-digitizer threshold 200mV
+530, -650, -650, reci on/getter on-low threshold
+531, -650, -650, reci on/getter on-digitizer threshold 200mV
+532, -700, -700, reci on/getter on-low threshold
+534, -700, -700, reci on/getter on-digitizer threshold 200mV
+536, -700, -700, reci on/getter on-digi th 200mV-50ohm terminator
+537, -700, -700, reci on/getter on-digi th 200mV-50ohm terminator
+538, -700, -700, reci on/getter off-digi th 200mV
+539, -700, -700, reci on/getter off-digi th 200mV
+540, -700, -700, reci on/getter off-digi th 200mV
+541, -700, -700, reci off/getter off-digi th 200mV
+542, -700, -700, reci off/getter off-digi th 200mV
+543, -700, -700, reci off/getter off-digi th 200mV
+544, -700, -700, reci off/getter off-digi th 200mV
+545, -700, -700, reci off/getter off-digi th 200mV
+546, -700, -700, reci off/getter off-digi th 200mV
+547, -700, -700, reci off/getter off-digi th 200mV
+548, -700, -700, reci off/getter off-digi th 200mV
+549, -700, -700, reci off/getter off-digi th 200mV
+550, -700, -700, reci off/getter off-digi th 200mV
+551, -700, -700, reci off/getter off-digi th 200mV
+552, -700, -700, reci off/getter off-digi th 200mV
+553, -700, -700, reci off/getter off-digi th 200mV
+554, -700, -700, reci off/getter off-digi th 200mV
+555, -700, -700, reci off/getter off-digi th 200mV
+556, -700, -700, reci off/getter off-digi th 200mV
+557, -700, -700, reci off/getter off-digi th 200mV
+558, -700, -700, reci off/getter off-digi th 200mV
+559, -700, -700, reci off/getter off-digi th 200mV
+560, -700, -700, reci off/getter off-digi th 200mV
+560, -700, -700, reci off/getter off-digi th 200mV
+561, -700, -700, reci off/getter off-digi th 200mV
+562, -700, -700, reci off/getter off-digi th 200mV
+563, -700, -700, reci off/getter off-digi th 200mV
+564, -700, -700, reci off/getter off-digi th 200mV
+565, -700, -700, reci off/getter off-digi th 200mV
+566, -700, -700, reci off/getter off-digi th 200mV
+567, -700, -700, reci on/getter on-digi th 200mV
+568, -520, -590, reci on/getter on-digi th 200mV
+569, -520, -590, reci on/getter on-digi th 200mV-new HV cables
+570, -620, -740, reci on/getter on-digi th 500mV-new HV cables
+571, -520, -590, reci on/getter on-digi th 200mV-new signal cables
+572, -520, -590, reci on/getter on-digi th 200mV-new signal cables-50ohm terminator
+574, -520, -590, reci on/getter on
+575, -520, -590, reci on/getter on
+576, -520, -590, reci on/getter off
+577, -520, -590, reci on/getter off
+578, -520, -590, reci off/getter off
+579, -520, -590, reci off/getter off
+580, -520, -590, reci off/getter off
+581, -520, -590, reci off/getter off
+582, -520, -590, reci off/getter off
+583, -520, -590, reci off/getter off
+584, -520, -590, reci off/getter off
+585, -520, -590, reci off/getter off
+586, -520, -590, reci off/getter off
+587, -520, -590, reci off/getter off
+588, -520, -590, reci off/getter off
+590, -520, -590, reci off/getter off
+591, -520, -590, reci off/getter off
+592, -520, -590, reci on/getter off
+593, -520, -590, reci on/getter off
+594, -520, -590, reci on/getter on
+595, -520, -590, reci on/getter on
+596, -520, -590, reci on/getter on
+597, -520, -590, reci on/getter on
+598, -520, -590, reci on/getter on
+599, -520, -590, reci on/getter on
+600, -600, -600, reci on/getter on
+601, -600, -600, reci on/getter on
+602, -720, -720, reci on/getter on
+603, -600, -600, reci on/getter on
+604, -680, -680, reci on/getter on
+605, -780, -780, reci on/getter on
+606, -620, -720, reci on/getter on
+607, -620, -720, reci on/getter on
+608, -620, -720, reci on/getter on
+609, -620, -720, reci on/getter on
+610, -620, -720, reci on/getter on
+611, -620, -720, reci on/getter on
+612, -620, -720, reci on/getter on
+613, -610, -680, reci on/getter on
+614, -610, -680, reci on/getter on
+615, -610, -680, reci on/getter on
+616, -610, -680, reci on/getter on
+617, -680, -680, reci on/getter on
+618, -680, -680, reci on/getter on
+620, -680, -680, reci on/getter on
+621, -680, -680, reci on/getter on
+622, -680, -750, reci on/getter on
+623, -680, -780, reci on/getter on
+624, -680, -800, reci on/getter on
+625, -680, -800, reci on/getter on
+626, -670, -790, reci on/getter on
+627, -680, -780, reci on/getter on
+736, -500, 600, reci on/getter on-HV scan-digi th 100ADC
+737, -505, 610, reci on/getter on-HV scan-digi th 100ADC
+738, -510, 620, reci on/getter on-HV scan-digi th 100ADC
+739, -515, 630, reci on/getter on-HV scan-digi th 100ADC
+740, -520, 640, reci on/getter on-HV scan-digi th 100ADC
+741, -525, 650, reci on/getter on-HV scan-digi th 100ADC
+742, -580, 680, reci on/getter on-HV scan-digi th 100ADC
+743, -580, 680, reci on/getter on-HV scan-digi th 100ADC
+744, -500, 600, reci on/getter on-HV scan-digi th 50ADC
+745, -505, 610, reci on/getter on-HV scan-digi th 50ADC
+746, -510, 620, reci on/getter on-HV scan-digi th 50ADC
+747, -515, 630, reci on/getter on-HV scan-digi th 50ADC
+748, -520, 640, reci on/getter on-HV scan-digi th 50ADC
+749, -525, 650, reci on/getter on-HV scan-digi th 50ADC
+750, -525, 650, reci on/getter on-HV scan-digi th 50ADC
+751, -450, -610, reci on/getter on-HV scan-digi th 100ADC
+752, -450, -610, reci on/getter on-HV scan-digi th 100ADC
+753, -460, -615, reci on/getter on-HV scan-digi th 100ADC
+754, -460, -615, reci on/getter on-HV scan-digi th 100ADC
+755, -570, -620, reci on/getter on-HV scan-digi th 100ADC
+756, -570, -620, reci on/getter on-HV scan-digi th 100ADC
+757, -480, -625, reci on/getter on-HV scan-digi th 100ADC
+758, -480, -625, reci on/getter on-HV scan-digi th 100ADC
+759, -490, -630, reci on/getter on-HV scan-digi th 100ADC
+760, -490, -630, reci on/getter on-HV scan-digi th 100ADC
+761, -505, -610, reci on/getter on-HV scan-digi th 100ADC
+762, -505, -610, reci on/getter on-HV scan-digi th 100ADC
+763, -510, -620, reci on/getter on-HV scan-digi th 100ADC
+764, -510, -620, reci on/getter on-HV scan-digi th 100ADC
+765, -510, -620, reci on/getter on-HV scan-digi th 100ADC
+766, -510, -615, reci on/getter on-digi th 100ADC
+767, -510, -615, reci on/getter on-digi th 100ADC
+768, -510, -615, reci on/getter on-digi th 100ADC
+769, -510, -615, reci on/getter on-digi th 100ADC
+770, -510, -615, reci on/getter on-digi th 100ADC
+771, -510, -615, reci on/getter on-digi th 100ADC
+772, -510, -615, reci on/getter on-digi th 100ADC
+773, -510, -615, reci on/getter on-digi th 100ADC
+774, -510, -615, reci on/getter on-digi th 100ADC
+775, -510, -615, reci on/getter on-digi th 100ADC
+776, -510, -615, reci on/getter on-digi th 100ADC
+777, -510, -615, reci on/getter on-digi th 100ADC
+778, -510, -615, reci on/getter on-digi th 100ADC
+779, -510, -615, reci on/getter on-digi th 100ADC
+780, -510, -615, reci on/getter on-digi th 100ADC
+781, -510, -615, reci on/getter on-digi th 100ADC
+782, -510, -615, reci on/getter on-digi th 100ADC
+783, -510, -615, reci on/getter on-digi th 100ADC
+784, -510, -615, reci on/getter on-digi th 100ADC
+785, -510, -615, reci on/getter on-digi th 100ADC
+786, -510, -615, reci on/getter on-digi th 100ADC
+787, -510, -615, reci on/getter on-digi th 100ADC
+788, -510, -615, reci on/getter on-digi th 100ADC
+789, -510, -615, reci on/getter on-digi th 100ADC
+790, -510, -615, reci on/getter on-digi th 100ADC
+791, -510, -615, reci on/getter on-digi th 100ADC
+792, -510, -615, reci on/getter on-digi th 100ADC
+793, -510, -615, reci on/getter on-digi th 100ADC
+794, -510, -615, reci on/getter on-digi th 100ADC
+795, -510, -615, reci on/getter on-digi th 100ADC
+796, -510, -615, reci on/getter on-digi th 80ADC
+797, -510, -615, reci on/getter on-igi th 50ADC
+798, -510, -615, reci on/getter on-digi th 30ADC
+799, -510, -615, reci on/getter on-digi th 30ADC
+800, -510, -615, reci on/getter on-digi th 30ADC
+801, -510, -615, reci on/getter on-digi th 30ADC
+802, -510, -615, reci on/getter on-digi th 30ADC
+803, -510, -615, reci on/getter on-digi th 30ADC
+804, -510, -615, reci on/getter on-digi th 30ADC
+805, -510, -615, reci on/getter on-digi th 30ADC
+806, -510, -615, reci on/getter on-digi th 30ADC
+807, -510, -615, reci on/getter on-digi th 30ADC
+808, -510, -615, reci on/getter on-digi th 30ADC
+809, -510, -615, reci on/getter on-digi th 30ADC
+810, -510, -615, reci on/getter on-digi th 30ADC
+811, -510, -615, reci on/getter on-digi th 30ADC
+812, -510, -615, reci on/getter on-digi th 30ADC
+813, -510, -615, reci on/getter on-digi th 30ADC
+814, -510, -615, reci on/getter on-digi th 30ADC
+815, -510, -615, reci on/getter on-digi th 30ADC
+816, -510, -615, reci on/getter on-digi th 30ADC
+817, -510, -615, reci on/getter on-digi th 30ADC
+818, -510, -615, reci on/getter on-digi th 30ADC
+819, -510, -615, reci on/getter on-digi th 30ADC
+820, -510, -615, reci on/getter on-digi th 30ADC
+821, -510, -615, reci on/getter on-digi th 30ADC
+822, -510, -615, reci on/getter on-digi th 30ADC
+823, -510, -615, reci on/getter on-digi th 30ADC
+824, -510, -615, reci on/getter on-digi th 30ADC
+825, -510, -615, reci on/getter on-digi th 30ADC
+826, -510, -615, reci on/getter on-digi th 30ADC
+827, -510, -615, reci on/getter on-digi th 30ADC
+828, -510, -615, reci on/getter on-digi th 30ADC
+829, -510, -615, reci on/getter on-digi th 30ADCC
+830, -510, -615, reci on/getter on-digi th 30ADC
+831, -510, -615, reci on/getter on-digi th 30ADC
+832, -510, -615, reci on/getter on-digi th 30ADC
+833, -510, -615, reci on/getter on-digi th 30ADC
+834, -510, -615, reci on/getter on-digi th 30ADC
+835, -510, -615, reci on/getter on-digi th 30ADC
+836, -510, -615, reci on/getter on-digi th 30ADC
+837, -510, -615, reci on/getter on-digi th 30ADC
+838, -510, -615, reci on/getter on-digi th 30ADC
+839, -510, -615, reci on/getter on-digi th 30ADC
+840, -510, -615, reci on/getter on-digi th 30ADC
+841, -510, -615, reci on/getter on-digi th 30ADC
+842, -510, -615, reci on/getter on-digi th 30ADC
+843, -510, -615, reci on/getter on-digi th 30ADC
+844, -510, -615, reci on/getter on-digi th 30ADC
+845, -510, -615, reci on/getter on-digi th 30ADC
+846, -510, -615, reci on/getter on-digi th 30ADC
+847, -510, -615, reci on/getter on-digi th 30ADC
+848, -510, -615, reci on/getter on-digi th 30ADC
+849, -510, -615, reci on/getter on-digi th 30ADC
+850, -510, -615, reci on/getter on-digi th 30ADC
+851, -510, -615, reci on/getter on-digi th 30ADC
+852, -510, -615, reci on/getter on-digi th 30ADC
+853, -510, -615, reci on/getter on-digi th 30ADC
+854, -510, -615, reci on/getter on-digi th 30ADC
+855, -510, -615, reci on/getter on-digi th 30ADC
+856, -510, -615, reci on/getter on-digi th 30ADC
+857, -510, -615, reci on/getter on-digi th 30ADC
+858, -510, -615, reci on/getter on-digi th 30ADC
+859, -510, -615, reci on/getter on-digi th 30ADC
+860, -510, -615, reci on/getter on-digi th 30ADC
+861, -510, -615, reci on/getter on-digi th 30ADC
+862, -510, -615, reci on/getter on-digi th 30ADC
+863, -510, -615, reci on/getter on-digi th 30ADC
+864, -510, -615, reci on/getter on-digi th 30ADC
+865, -510, -615, reci on/getter on-digi th 30ADC
+866, -510, -615, reci on/getter on-digi th 30ADC
+867, -510, -615, reci on/getter on-digi th 30ADC
+868, -510, -615, reci on/getter on-digi th 30ADC
+869, -510, -615, reci on/getter on-digi th 30ADC
+870, -510, -615, reci on/getter on-digi th 30ADC
+871, -510, -615, reci on/getter on-digi th 30ADC
+872, -510, -615, reci on/getter on-digi th 30ADC
+873, -510, -615, reci on/getter on-digi th 30ADC
+874, -510, -615, reci on/getter on-digi th 30ADC
+875, -510, -615, reci on/getter on-digi th 30ADC
+876, -510, -615, reci on/getter on-digi th 30ADC
+877, -510, -615, reci on/getter on-digi th 30ADC
+878, -510, -615, reci on/getter on-digi th 30ADC
+879, -510, -615, reci on/getter on-digi th 30ADC
+880, -510, -615, reci on/getter on-digi th 30ADC
+881, -510, -615, reci on/getter on-digi th 30ADC
+882, -510, -615, reci on/getter on-digi th 30ADC
+883, -510, -615, reci on/getter on-digi th 30ADC
+884, -510, -615, reci on/getter on-digi th 30ADC
+885, -510, -615, reci on/getter on-digi th 30ADC
+886, -510, -615, reci on/getter on-digi th 30ADC
+887, -510, -615, reci on/getter on-digi th 30ADC
+888, -510, -615, reci on/getter on-digi th 30ADC
+889, -510, -615, reci on/getter on-digi th 30ADC
+890, -510, -615, reci on/getter on-digi th 30ADC
+891, -510, -615, reci on/getter on-digi th 30ADC
+892, -510, -615, reci on/getter on-digi th 30ADC
+893, -510, -615, reci on/getter on-digi th 30ADC
+894, -510, -615, reci on/getter on-digi th 30ADC
+895, -510, -615, reci on/getter on-digi th 30ADC
+896, -510, -615, reci on/getter on-digi th 30ADC
+897, -510, -615, reci on/getter on-digi th 30ADC
+898, -510, -615, reci on/getter on-digi th 30ADC
+899, -510, -615, reci on/getter on-digi th 30ADC
+900, -510, -615, reci on/getter on-digi th 30ADC
+901, -510, -615, reci on/getter on-digi th 30ADC
+902, -510, -615, reci on/getter on-digi th 30ADC
+903, -510, -615, reci on/getter on-digi th 30ADC
+904, -510, -615, reci on/getter on-digi th 30ADC
+905, -510, -615, reci on/getter on-digi th 30ADC
+906, -510, -615, reci on/getter on-digi th 30ADC
+907, -510, -615, reci on/getter on-digi th 30ADC
+908, -510, -615, reci on/getter on-digi th 30ADC
+909, -510, -615, reci on/getter on-digi th 30ADC
+910, -510, -615, reci on/getter on-digi th 30ADC
+911, -510, -615, reci on/getter on-digi th 30ADC
+912, -510, -615, reci on/getter on-digi th 30ADC
+913, -510, -615, reci on/getter on-digi th 30ADC
+914, -510, -615, reci on/getter on-digi th 30ADC
+915, -510, -615, reci on/getter on-digi th 30ADC
+916, -510, -615, reci on/getter on-digi th 30ADC
+917, -510, -615, reci on/getter on-digi th 30ADC
+918, -510, -615, reci on/getter on-digi th 30ADC
+919, -510, -615, reci on/getter on-digi th 30ADC
+920, -510, -615, reci on/getter on-digi th 30ADC
+921, -510, -615, reci on/getter on-digi th 30ADC
+922, -510, -615, reci on/getter on-digi th 30ADC
+923, -510, -615, reci on/getter on-digi th 30ADC
+924, -510, -615, reci on/getter on-digi th 30ADC
+925, -510, -615, reci on/getter on-digi th 30ADC
+926, -510, -615, reci on/getter on-digi th 30ADC
+927, -510, -615, reci on/getter on-digi th 30ADC
+928, -510, -615, reci on/getter on-digi th 30ADC
+929, -510, -615, reci on/getter on-digi th 30ADC
+930, -510, -615, reci on/getter on-digi th 30ADC
+931, -510, -615, reci on/getter on-digi th 30ADC
+932, -510, -615, reci on/getter on-digi th 30ADC
+933, -510, -615, reci on/getter on-digi th 30ADC
+934, -510, -615, reci on/getter on-digi th 30ADC
+935, -510, -615, reci on/getter on-digi th 30ADC
+936, -510, -615, reci on/getter on-digi th 30ADC
+937, -510, -615, reci on/getter on-digi th 30ADC
+938, -510, -615, reci on/getter on-digi th 30ADC
+939, -510, -615, reci on/getter on-digi th 30ADC
+940, -510, -615, reci on/getter on-digi th 30ADC
+941, -510, -615, reci on/getter on-digi th 30ADC
+942, -510, -615, reci on/getter on-digi th 30ADC
+943, -510, -615, reci on/getter on-digi th 30ADC
+944, -510, -615, reci on/getter on-digi th 30ADC
+945, -510, -615, reci on/getter on-digi th 30ADC
+946, -510, -615, reci on/getter on-digi th 30ADC
+947, -510, -615, reci on/getter on-digi th 30ADC
+948, -510, -615, reci on/getter on-digi th 30ADC
+949, -510, -615, reci on/getter on-digi th 30ADC
+950, -510, -615, reci on/getter on-digi th 30ADC
+950, -510, -615, reci on/getter on-digi th 30ADC
+951, -510, -615, reci on/getter on-digi th 30ADC
+952, -510, -615, reci on/getter on-digi th 30ADC
+953, -510, -615, reci on/getter on-digi th 30ADC
+954, -510, -615, reci on/getter on-digi th 30ADC
+955, -510, -615, reci on/getter on-digi th 30ADC
+956, -510, -615, reci on/getter on-digi th 30ADC
+957, -510, -615, reci on/getter on-digi th 30ADC
+958, -510, -615, reci on/getter on-digi th 30ADC
+959, -510, -615, reci on/getter on-digi th 30ADC
+960, -510, -615, reci on/getter on-digi th 30ADC
+960, -510, -615, reci on/getter on-digi th 30ADC
+961, -510, -615, reci on/getter on-digi th 30ADC
+962, -510, -615, reci on/getter on-digi th 30ADC
+963, -510, -615, reci on/getter on-digi th 30ADC
+964, -510, -615, reci on/getter on-digi th 30ADC
+965, -510, -615, reci on/getter on-digi th 30ADC
+966, -510, -615, reci on/getter on-digi th 30ADC
+967, -510, -615, reci on/getter on-digi th 30ADC
+968, -510, -615, reci on/getter on-digi th 30ADC
+969, -510, -615, reci on/getter on-digi th 30ADC
+970, -510, -615, reci on/getter on-digi th 30ADC
+971, -510, -615, reci on/getter on-digi th 30ADC
+972, -510, -615, reci on/getter on-digi th 30ADC
+973, -510, -615, reci on/getter on-digi th 30ADC
+974, -510, -615, reci on/getter on-digi th 30ADC
+975, -510, -615, reci on/getter on-digi th 30ADC
+976, -510, -615, reci on/getter on-digi th 30ADC
+977, -510, -615, reci on/getter on-digi th 30ADC
+978, -510, -615, reci on/getter on-digi th 30ADC
+979, -510, -615, reci on/getter on-digi th 30ADC
+980, -510, -615, reci on/getter on-digi th 30ADC
+981, -510, -615, reci on/getter on-digi th 30ADC
+982, -510, -615, reci on/getter on-digi th 30ADC
+983, -510, -615, reci on/getter on-digi th 30ADC
+984, -510, -615, reci on/getter on-digi th 30ADC
+985, -510, -615, reci on/getter on-digi th 30ADC
+986, -510, -615, reci on/getter on-digi th 30ADC
+987, -510, -615, reci on/getter on-digi th 30ADC
+988, -510, -615, reci on/getter on-digi th 30ADC
+989, -510, -615, reci on/getter on-digi th 30ADC
+990, -510, -615, reci on/getter on-digi th 30ADC
+991, -510, -615, reci on/getter on-digi th 30ADC
+992, -510, -615, reci on/getter on-digi th 30ADC
+993, -510, -615, reci on/getter on-digi th 30ADC
+994, -510, -615, reci on/getter on-digi th 30ADC
+995, -510, -615, reci on/getter on-digi th 30ADC
+996, -510, -615, reci on/getter on-digi th 30ADC
+997, -510, -615, reci on/getter on-digi th 30ADC
+998, -510, -615, reci on/getter on-digi th 30ADC
+999, -510, -615, reci on/getter on-digi th 30ADC
+1000, -510, -615, reci on/getter on-digi th 30ADC
+1001, -510, -615, reci on/getter on-digi th 30ADC
+1002, -510, -615, reci on/getter on-digi th 30ADC
+1003, -510, -615, reci on/getter on-digi th 30ADC
+1004, -510, -615, reci on/getter on-digi th 30ADC
+1005, -510, -615, reci on/getter on-digi th 30ADC
+1006, -510, -615, reci on/getter on-digi th 30ADC
+1007, -510, -615, reci on/getter on-digi th 30ADC
+1008, -510, -615, reci on/getter on-digi th 30ADC
+1009, -510, -615, reci on/getter on-digi th 30ADC
+1010, -510, -615, reci on/getter on-digi th 30ADC
+1011, -510, -615, reci on/getter on-digi th 30ADC
+1012, -510, -615, reci on/getter on-digi th 30ADC
+1013, -510, -615, reci on/getter on-digi th 30ADC
+1014, -510, -615, reci on/getter on-digi th 30ADC
+1015, -510, -615, reci on/getter on-digi th 30ADC
+1016, -510, -615, reci on/getter on-digi th 30ADC
+1017, -510, -615, reci on/getter on-digi th 30ADC
+1018, -510, -615, reci on/getter on-digi th 30ADC
+1019, -510, -615, reci on/getter on-digi th 30ADC
+1020, -560, -615, reci on/getter on-digi th 30ADC
+1021, -560, -615, reci on/getter on-digi th 30ADC
+1022, -560, -615, reci on/getter on-digi th 30ADC
+1023, -560, -615, reci on/getter on-digi th 30ADC
+1024, -560, -615, reci on/getter on-digi th 30ADC
+1025, -560, -615, reci on/getter on-digi th 30ADC
+1026, -560, -615, reci on/getter on-digi th 30ADC
+1027, -560, -615, reci on/getter on-digi th 30ADC
+1028, -560, -615, reci on/getter on-digi th 30ADC
+1029, -560, -615, reci on/getter on-digi th 30ADC
+1030, -560, -615, reci on/getter on-digi th 30ADC
+1031, -560, -615, reci on/getter on-digi th 30ADC
+1032, -560, -615, reci on/getter on-digi th 30ADC
+1033, -560, -615, reci on/getter on-digi th 30ADC
+1034, -560, -615, reci on/getter on-digi th 30ADC
+1035, -560, -615, reci on/getter on-digi th 30ADC
+1036, -560, -615, reci on/getter on-digi th 30ADC
+1037, -560, -615, reci on/getter on-digi th 30ADC
+1038, -560, -615, reci on/getter on-digi th 30ADC
+1039, -560, -615, reci on/getter on-digi th 30ADC
+1040, -560, -615, reci on/getter on-digi th 30ADC
+1041, -560, -615, reci on/getter on-digi th 30ADC
+1042, -560, -615, reci on/getter on-digi th 30ADC
+1043, -560, -615, reci on/getter on-digi th 30ADC
+1044, -560, -615, reci on/getter on-digi th 30ADC
+1045, -560, -615, reci on/getter on-digi th 30ADC
+1046, -560, -615, reci on/getter on-digi th 30ADC
+1047, -560, -615, reci on/getter on-digi th 30ADC
+1048, -560, -615, reci on/getter on-digi th 30ADC
+1049, -560, -615, reci on/getter on-digi th 30ADC
+1050, -560, -615, reci on/getter on-digi th 30ADC
+1051, -560, -615, reci on/getter on-digi th 30ADC
+1052, -560, -615, reci on/getter on-digi th 30ADC
+1053, -560, -615, reci on/getter on-digi th 30ADC
+1054, -560, -615, reci on/getter on-digi th 30ADC
+1055, -560, -615, reci on/getter on-digi th 30ADC
+1056, -560, -615, reci on/getter on-digi th 30ADC
+1057, -560, -615, reci on/getter on-digi th 30ADC
+1058, -560, -615, reci on/getter on-digi th 30ADC
+1059, -560, -615, reci on/getter on-digi th 30ADC
+1060, -560, -615, reci on/getter on-digi th 30ADC
+1061, -560, -615, reci on/getter on-digi th 30ADC
+1062, -560, -615, reci on/getter on-digi th 30ADC
+1063, -560, -615, reci on/getter on-digi th 30ADC
+1064, -560, -615, reci on/getter on-digi th 30ADC
+1065, -560, -615, reci on/getter on-digi th 30ADC
+1066, -560, -615, reci on/getter on-digi th 30ADC
+1067, -560, -615, reci on/getter on-digi th 30ADC
+1068, -560, -615, reci on/getter on-digi th 30ADC
+1069, -560, -615, reci on/getter on-digi th 30ADC
+1070, -560, -615, reci on/getter on-digi th 30ADC
+1071, -560, -615, reci on/getter on-digi th 30ADC
+1072, -560, -615, reci on/getter on-digi th 30ADC
+1073, -560, -615, reci on/getter on-digi th 30ADC
+1074, -560, -615, reci on/getter on-digi th 30ADC
+1075, -560, -615, reci on/getter on-digi th 30ADC
+1076, -560, -615, reci on/getter on-digi th 30ADC
+1077, -560, -615, reci on/getter on-digi th 30ADC
+1078, -560, -615, reci on/getter on-digi th 30ADC
+1079, -560, -615, reci on/getter on-digi th 30ADC
+1080, -560, -615, reci on/getter on-digi th 30ADC
+1081, -560, -615, reci on/getter on-digi th 30ADC
+1082, -560, -615, reci on/getter on-digi th 30ADC
+1083, -560, -615, reci on/getter on-digi th 30ADC
+1084, -560, -615, reci on/getter on-digi th 30ADC
+1085, -560, -615, reci on/getter on-digi th 30ADC
+1086, -560, -615, reci on/getter on-digi th 30ADC
+1087, -560, -615, reci on/getter on-digi th 30ADC
+1088, -560, -615, reci on/getter on-digi th 30ADC
+1089, -560, -615, reci on/getter on-digi th 30ADC
+1090, -560, -615, reci on/getter on-digi th 30ADC
+1090, -560, -615, reci on/getter on-digi th 30ADC
+1091, -560, -615, reci on/getter on-digi th 30ADC
+1092, -560, -615, reci on/getter on-digi th 30ADC
+1093, -560, -615, reci on/getter on-digi th 30ADC
+1094, -560, -615, reci on/getter on-digi th 30ADC
+1095, -560, -615, reci on/getter on-digi th 30ADC
+1096, -560, -615, reci on/getter on-digi th 30ADC
+1097, -560, -615, reci on/getter on-digi th 30ADC
+1098, -560, -615, reci on/getter on-digi th 30ADC
+1099, -560, -615, reci on/getter on-digi th 30ADC
+1100, -560, -615, reci on/getter on-digi th 30ADC
+1101, -560, -615, reci on/getter on-digi th 30ADC
+1102, -560, -615, reci on/getter on-digi th 30ADC
+1103, -560, -615, reci on/getter on-digi th 30ADC
+1104, -560, -615, reci on/getter on-digi th 30ADC
+1105, -560, -615, reci on/getter on-digi th 30ADC
+1106, -560, -615, reci on/getter on-digi th 30ADC
+1107, -560, -615, reci on/getter on-digi th 30ADC
+1108, -560, -615, reci on/getter on-digi th 30ADC
+1109, -560, -615, reci on/getter on-digi th 30ADC
+1110, -560, -615, reci on/getter on-digi th 30ADC
+1111, -560, -615, reci on/getter on-digi th 30ADC
+1112, -560, -615, reci on/getter on-digi th 30ADC
+1113, -560, -615, reci on/getter on-digi th 30ADC
+1114, -560, -615, reci on/getter on-digi th 30ADC
+1115, -560, -615, reci on/getter on-digi th 30ADC
+1116, -560, -615, reci on/getter on-digi th 30ADC
+1117, -560, -615, reci on/getter on-digi th 30ADC
+1118, -560, -615, reci on/getter on-digi th 30ADC
+1119, -560, -615, reci on/getter on-digi th 30ADC
+1120, -560, -615, reci on/getter on-digi th 30ADC
+1121, -560, -615, reci on/getter on-digi th 30ADC
+1122, -560, -615, reci on/getter on-digi th 30ADC
+1123, -560, -615, reci on/getter on-digi th 30ADC
+1124, -560, -615, reci on/getter on-digi th 30ADC
+1125, -560, -615, reci on/getter on-digi th 30ADC
+1126, -560, -615, reci on/getter on-digi th 30ADC
+1127, -560, -615, reci on/getter on-digi th 30ADC
+1128, -560, -615, reci on/getter on-digi th 30ADC
+1129, -560, -615, reci on/getter on-digi th 30ADC
+1130, -560, -615, reci on/getter on-digi th 30ADC
+1131, -560, -615, reci on/getter on-digi th 30ADC
+1132, -560, -615, reci on/getter on-digi th 30ADC
+1133, -560, -615, reci on/getter on-digi th 30ADC
+1134, -560, -615, reci on/getter on-digi th 30ADC
+1135, -560, -615, reci on/getter on-digi th 30ADC
+1136, -560, -615, reci on/getter on-digi th 30ADC
+1137, -560, -615, reci on/getter on-digi th 30ADC
+1138, -560, -615, reci on/getter on-digi th 30ADC
+1139, -560, -615, reci on/getter on-digi th 30ADC
+1140, -560, -615, reci on/getter on-digi th 30ADC
+1141, -560, -615, reci on/getter on-digi th 30ADC
+1142, -560, -615, reci on/getter on-digi th 30ADC
+1143, -560, -615, reci on/getter on-digi th 30ADC
+1144, -560, -615, reci on/getter on-digi th 30ADC
+1145, -560, -615, reci on/getter on-digi th 30ADC
+1146, -560, -615, reci on/getter on-digi th 30ADC
+1147, -560, -615, reci on/getter on-digi th 30ADC
+1148, -560, -615, reci on/getter on-digi th 30ADC
+1149, -560, -615, reci on/getter on-digi th 30ADC
+1150, -560, -615, reci on/getter on-digi th 30ADC
+1151, -560, -615, reci on/getter on-digi th 30ADC
+1152, -560, -615, reci on/getter on-digi th 30ADC
+1153, -560, -615, reci on/getter on-digi th 30ADC
+1154, -560, -615, reci on/getter on-digi th 30ADC
+1155, -560, -615, reci on/getter on-digi th 30ADC
+1156, -560, -615, reci on/getter on-digi th 30ADC
+1157, -560, -615, reci on/getter on-digi th 30ADC
+1158, -560, -615, reci on/getter on-digi th 30ADC
+1159, -560, -615, reci on/getter on-digi th 30ADC
+1160, -560, -615, reci on/getter on-digi th 30ADC
+1161, -560, -615, reci on/getter on-digi th 30ADC
+1162, -560, -615, reci on/getter on-digi th 30ADC
+1163, -560, -615, reci on/getter on-digi th 30ADC
+1164, -560, -615, reci on/getter on-digi th 30ADC
+1165, -560, -615, reci on/getter on-digi th 30ADC
+1166, -560, -615, reci on/getter on-digi th 30ADC
+1167, -560, -615, reci on/getter on-digi th 30ADC
+1168, -560, -615, reci on/getter on-digi th 30ADC
+1169, -560, -615, reci on/getter on-digi th 30ADC
+1170, -560, -615, reci on/getter on-digi th 30ADC
+1171, -560, -615, reci on/getter on-digi th 30ADC
+1172, -560, -615, reci on/getter on-digi th 30ADC
+1173, -560, -615, reci on/getter on-digi th 30ADC
+1174, -560, -615, reci on/getter on-digi th 30ADC
+1175, -560, -615, reci on/getter on-digi th 30ADC
+1176, -560, -615, reci on/getter on-digi th 30ADC
+1177, -560, -615, reci on/getter on-digi th 30ADC
+1178, -560, -615, reci on/getter on-digi th 30ADC
+1179, -560, -615, reci on/getter on-digi th 30ADC
+1180, -560, -615, reci on/getter on-digi th 30ADC
+1181, -560, -615, reci on/getter on-digi th 30ADC
+1182, -560, -615, reci on/getter on-digi th 30ADC
+1183, -560, -615, reci on/getter on-digi th 30ADC
+1184, -560, -615, reci on/getter on-digi th 30ADC
+1185, -560, -615, reci on/getter on-digi th 30ADC
+1186, -560, -615, reci on/getter on-digi th 30ADC
+1187, -560, -615, reci on/getter on-digi th 30ADC
+1188, -560, -615, reci on/getter on-digi th 30ADC
+1189, -560, -615, reci on/getter on-digi th 30ADC
+1190, -560, -615, reci on/getter on-digi th 30ADC
+1191, -560, -615, reci on/getter on-digi th 30ADC
+1192, -560, -615, reci on/getter on-digi th 30ADC
+1193, -560, -615, reci on/getter on-digi th 30ADC
+1194, -560, -615, reci on/getter on-digi th 30ADC
+1195, -560, -615, reci on/getter on-digi th 30ADC
+1196, -560, -615, reci on/getter on-digi th 30ADC
+1197, -560, -615, reci on/getter on-digi th 30ADC
+1198, -560, -615, reci on/getter on-digi th 30ADC
+1199, -560, -615, reci on/getter on-digi th 30ADC
+1200, -560, -615, reci on/getter on-digi th 30ADC
+1201, -560, -615, reci on/getter on-digi th 30ADC
+1202, -560, -615, reci on/getter on-digi th 30ADC
+1203, -560, -615, reci on/getter on-digi th 30ADC
+1204, -560, -615, reci on/getter on-digi th 30ADC
+1205, -560, -615, reci on/getter on-digi th 30ADC
+1206, -560, -615, reci on/getter on-digi th 30ADC
+1207, -560, -615, reci on/getter on-digi th 30ADC
+1208, -560, -615, reci on/getter on-digi th 30ADC
+1209, -560, -615, reci on/getter on-digi th 30ADC
+1210, -560, -615, reci on/getter on-digi th 30ADC
+1211, -560, -615, reci on/getter on-digi th 30ADC
+1212, -560, -615, reci on/getter on-digi th 30ADC
+1213, -560, -615, reci on/getter on-digi th 30ADC
+1214, -560, -615, reci on/getter on-digi th 30ADC
+1215, -560, -615, reci on/getter on-digi th 30ADC
+1216, -560, -615, reci on/getter on-digi th 30ADC
+1217, -560, -615, reci on/getter on-digi th 30ADC
+1218, -560, -615, reci on/getter on-digi th 30ADC
+1219, -560, -615, reci on/getter on-digi th 30ADC
+1220, -560, -615, reci on/getter on-digi th 30ADC
+1221, -560, -615, reci on/getter on-digi th 30ADC
+1222, -560, -615, reci on/getter on-digi th 30ADC
+1223, -560, -615, reci on/getter on-digi th 30ADC
+1224, -560, -615, reci on/getter on-digi th 30ADC
+1225, -560, -615, reci on/getter on-digi th 30ADC
+1226, -560, -615, reci on/getter on-digi th 30ADC
+1227, -560, -615, reci on/getter on-digi th 30ADC
+1228, -560, -615, reci on/getter on-digi th 30ADC
+1229, -560, -615, reci on/getter on-digi th 30ADC
+1230, -560, -615, reci on/getter on-digi th 30ADC
+1231, -560, -615, reci on/getter on-digi th 30ADC
+1232, -560, -615, reci on/getter on-digi th 30ADC
+1233, -560, -615, reci on/getter on-digi th 30ADC
+1234, -560, -615, reci on/getter on-digi th 30ADC
+1235, -560, -615, reci on/getter on-digi th 30ADC
+1236, -560, -615, reci on/getter on-digi th 30ADC
+1237, -560, -615, reci on/getter on-digi th 30ADC
+1238, -560, -615, reci on/getter on-digi th 30ADC
+1239, -560, -615, reci on/getter on-digi th 30ADC
+1240, -560, -615, reci on/getter on-digi th 30ADC
+1241, -560, -615, reci on/getter on-digi th 30ADC
+1242, -560, -615, reci on/getter on-digi th 30ADC
+1243, -560, -615, reci on/getter on-digi th 30ADC
+1244, -560, -615, reci on/getter on-digi th 30ADC
+1245, -560, -615, reci on/getter on-digi th 30ADC
+1246, -560, -615, reci on/getter on-digi th 30ADC
+1247, -560, -615, reci on/getter on-digi th 30ADC
+1248, -560, -615, reci on/getter on-digi th 30ADC
+1249, -560, -615, reci on/getter on-digi th 30ADC
+1250, -560, -615, reci on/getter on-digi th 30ADC
+1251, -560, -615, reci on/getter on-digi th 30ADC
+1252, -560, -615, reci on/getter on-digi th 30ADC
+1253, -560, -615, reci on/getter on-digi th 30ADC
+1254, -560, -615, reci on/getter on-digi th 30ADC
+1255, -560, -615, reci on/getter on-digi th 30ADC
+1256, -560, -615, reci on/getter on-digi th 30ADC
+1257, -560, -615, reci on/getter on-digi th 30ADC
+1258, -560, -615, reci on/getter on-digi th 30ADC
+1259, -560, -615, reci on/getter on-digi th 30ADC
+1260, -560, -615, reci on/getter on-digi th 30ADC
+1261, -560, -615, reci on/getter on-digi th 30ADC
+1262, -560, -615, reci on/getter on-digi th 30ADC
+1263, -560, -615, reci on/getter on-digi th 30ADC
+1264, -560, -615, reci on/getter on-digi th 30ADC
+1265, -560, -615, reci on/getter on-digi th 30ADC
+1266, -560, -615, reci on/getter on-digi th 30ADC
+1267, -560, -615, reci on/getter on-digi th 30ADC
+1268, -560, -615, reci on/getter on-digi th 30ADC
+1269, -560, -615, reci on/getter on-digi th 30ADC
+1270, -560, -615, reci on/getter on-digi th 30ADC
+1271, -560, -615, reci on/getter on-digi th 30ADC
+1272, -560, -615, reci on/getter on-digi th 30ADC
+1273, -560, -615, reci on/getter on-digi th 30ADC
+1274, -560, -615, reci on/getter on-digi th 30ADC
+1275, -560, -615, reci on/getter on-digi th 30ADC
+1276, -560, -615, reci on/getter on-digi th 30ADC
+1277, -560, -615, reci on/getter on-digi th 30ADC
+1278, -560, -615, reci on/getter on-digi th 30ADC
+1279, -560, -615, reci on/getter on-digi th 30ADC
+1280, -560, -615, reci on/getter on-digi th 30ADC
+1281, -560, -615, reci on/getter on-digi th 30ADC
+1282, -560, -615, reci on/getter on-digi th 30ADC
+1283, -560, -615, reci on/getter on-digi th 30ADC
+1284, -560, -615, reci on/getter on-digi th 30ADC
+1285, -560, -615, reci on/getter on-digi th 30ADC
+1286, -560, -615, reci on/getter on-digi th 30ADC
+1287, -560, -615, reci on/getter on-digi th 30ADC
+1288, -560, -615, reci on/getter on-digi th 30ADC
+1289, -560, -615, reci on/getter on-digi th 30ADC
+1290, -560, -615, reci on/getter on-digi th 30ADC
+1291, -560, -615, reci on/getter on-digi th 30ADC
+1292, -560, -615, reci on/getter on-digi th 30ADC
+1293, -560, -615, reci on/getter on-digi th 30ADC
+1294, -560, -615, reci on/getter on-digi th 30ADC
+1295, -560, -615, reci on/getter on-digi th 30ADC
+1296, -560, -615, reci on/getter on-digi th 30ADC
+1297, -560, -615, reci on/getter on-digi th 30ADC
+1298, -560, -615, reci on/getter on-digi th 30ADC
+1299, -560, -615, reci on/getter on-digi th 30ADC
+1300, -560, -615, reci on/getter on-digi th 30ADC
+1301, -560, -615, reci on/getter on-digi th 30ADC
+1302, -560, -615, reci on/getter on-digi th 30ADC
+1303, -560, -615, reci on/getter on-digi th 30ADC
+1304, -560, -615, reci on/getter on-digi th 30ADC
+1305, -560, -615, reci on/getter on-digi th 30ADC
+1306, -560, -615, reci on/getter on-digi th 30ADC
+1307, -560, -615, reci on/getter on-digi th 30ADC
+1308, -560, -615, reci on/getter on-digi th 30ADC
+1309, -560, -615, reci on/getter on-digi th 30ADC
+1310, -560, -615, reci on/getter on-digi th 30ADC
+1311, -560, -615, reci on/getter on-digi th 30ADC
+1312, -560, -615, reci on/getter on-digi th 30ADC
+1313, -560, -615, reci on/getter on-digi th 30ADC
+1314, -560, -615, reci on/getter on-digi th 30ADC
+1315, -560, -615, reci on/getter on-digi th 30ADC
+1316, -560, -615, reci on/getter on-digi th 30ADC
+1317, -560, -615, reci on/getter on-digi th 30ADC
+1318, -560, -615, reci on/getter on-digi th 30ADC
+1319, -560, -615, reci on/getter on-digi th 30ADC
+1320, -560, -615, reci on/getter on-digi th 30ADC
+1321, -560, -615, reci on/getter on-digi th 30ADC
+1322, -560, -615, reci on/getter on-digi th 30ADC
+1323, -560, -615, reci on/getter on-digi th 30ADC
+1324, -560, -615, reci on/getter on-digi th 30ADC
+1325, -560, -615, reci on/getter on-digi th 30ADC
+1326, -560, -615, reci on/getter on-digi th 30ADC
+1327, -560, -615, reci on/getter on-digi th 30ADC
+1328, -560, -615, reci on/getter on-digi th 30ADC
+1329, -560, -615, reci on/getter on-digi th 30ADC
+1330, -560, -615, reci on/getter on-digi th 30ADC
+1331, -560, -615, reci on/getter on-digi th 30ADC
+1332, -560, -615, reci on/getter on-digi th 30ADC
+1333, -560, -615, reci on/getter on-digi th 30ADC
+1334, -560, -615, reci on/getter on-digi th 30ADC
+1335, -560, -615, reci on/getter on-digi th 30ADC
+1336, -560, -615, reci on/getter on-digi th 30ADC
+1337, -560, -615, reci on/getter on-digi th 30ADC
+1338, -560, -615, reci on/getter on-digi th 30ADC
+1339, -560, -615, reci on/getter on-digi th 30ADC
+1340, -560, -615, reci on/getter on-digi th 30ADC
+1341, -560, -615, reci on/getter on-digi th 30ADC
+1342, -560, -615, reci on/getter on-digi th 30ADC
+1343, -560, -615, reci on/getter on-digi th 30ADC
+1344, -560, -615, reci on/getter on-digi th 30ADC
+1345, -560, -615, reci on/getter on-digi th 30ADC
+1346, -560, -615, reci on/getter on-digi th 30ADC
+1347, -560, -615, reci on/getter on-digi th 30ADC
+1348, -560, -615, reci on/getter on-digi th 30ADC
+1349, -560, -615, reci on/getter on-digi th 30ADC
+1350, -560, -615, reci on/getter on-digi th 30ADC
+1351, -560, -615, reci on/getter on-digi th 30ADC
+1352, -560, -615, reci on/getter on-digi th 30ADC
+1353, -560, -615, reci on/getter on-digi th 30ADC
+1354, -560, -615, reci on/getter on-digi th 30ADC
+1355, -560, -615, reci on/getter on-digi th 30ADC
+1356, -560, -615, reci on/getter on-digi th 30ADC
+1357, -560, -615, reci on/getter on-digi th 30ADC
+1358, -560, -615, reci on/getter on-digi th 30ADC
+1359, -560, -615, reci on/getter on-digi th 30ADC
+1360, -560, -615, reci on/getter on-digi th 30ADC
+1361, -560, -615, reci on/getter on-digi th 30ADC
+1362, -560, -615, reci on/getter on-digi th 30ADC
+1363, -560, -615, reci on/getter on-digi th 30ADC
+1364, -560, -615, reci on/getter on-digi th 30ADC
+1365, -560, -615, reci on/getter on-digi th 30ADC
+1366, -560, -615, reci on/getter on-digi th 30ADC
+1367, -560, -615, reci on/getter on-digi th 30ADC
+1368, -560, -615, reci on/getter on-digi th 30ADC
+1369, -560, -615, reci on/getter on-digi th 30ADC
+1370, -560, -615, reci on/getter on-digi th 30ADC
+1371, -560, -615, reci on/getter on-digi th 30ADC
+1372, -560, -615, reci on/getter on-digi th 30ADC
+1373, -560, -615, reci on/getter on-digi th 30ADC
+1374, -560, -615, reci on/getter on-digi th 30ADC
+1375, -560, -615, reci on/getter on-digi th 30ADC
+1376, -560, -615, reci on/getter on-digi th 30ADC
+1377, -560, -615, reci on/getter on-digi th 30ADC
+1378, -560, -615, reci on/getter on-digi th 30ADC
+1379, -560, -615, reci on/getter on-digi th 30ADC
+1380, -560, -615, reci on/getter on-digi th 30ADC
+1381, -560, -615, reci on/getter on-digi th 30ADC
+1382, -560, -615, reci on/getter on-digi th 30ADC
+1383, -560, -615, reci on/getter on-digi th 30ADC
+1384, -560, -615, reci on/getter on-digi th 30ADC
+1385, -560, -615, reci on/getter on-digi th 30ADC
+1386, -560, -615, reci on/getter on-digi th 30ADC
+1387, -560, -615, reci on/getter on-digi th 30ADC
+1388, -560, -615, reci on/getter on-digi th 30ADC
+1389, -560, -615, reci on/getter on-digi th 30ADC
+1390, -560, -615, reci on/getter on-digi th 30ADC
+1391, -560, -615, reci on/getter on-digi th 30ADC
+1392, -560, -615, reci on/getter on-digi th 30ADC
+1393, -560, -615, reci on/getter on-digi th 30ADC
+1394, -560, -615, reci on/getter on-digi th 30ADC
+1395, -560, -615, reci on/getter on-digi th 30ADC
+1396, -560, -615, reci on/getter on-digi th 30ADC
+1397, -560, -615, reci on/getter on-digi th 30ADC
+1398, -560, -615, reci on/getter on-digi th 30ADC
+1399, -560, -615, reci on/getter on-digi th 30ADC
+1400, -560, -615, reci on/getter on-digi th 30ADC
+1401, -560, -605, reci on/getter on-digi th 30ADC
+1402, -560, -605, reci on/getter on-digi th 30ADC
+1403, -560, -605, reci on/getter on-digi th 30ADC
+1404, -560, -605, reci on/getter on-digi th 30ADC
+1405, -560, -605, reci on/getter on-digi th 30ADC
+1406, -560, -605, reci on/getter on-digi th 30ADC
+1407, -560, -605, reci on/getter on-digi th 30ADC
+1408, -560, -605, reci on/getter on-digi th 30ADC
+1409, -560, -605, reci on/getter on-digi th 30ADC
+1410, -560, -615, reci on/getter on-digi th 30ADC
+1411, -560, -615, reci on/getter on-digi th 30ADC
+1412, -560, -615, reci on/getter on-digi th 30ADC
+1413, -560, -615, reci on/getter on-digi th 30ADC
+1414, -560, -615, reci on/getter on-digi th 30ADC
+1415, -560, -615, reci on/getter on-digi th 30ADC
+1416, -560, -615, reci on/getter on-digi th 30ADC
+1417, -560, -615, reci on/getter on-digi th 30ADC
+1418, -560, -615, reci on/getter on-digi th 30ADC
+1419, -560, -615, reci on/getter on-digi th 30ADC
+1420, -560, -615, reci on/getter on-digi th 30ADC
+1421, -560, -615, reci on/getter on-digi th 30ADC
+1422, -560, -615, reci on/getter on-digi th 30ADC
+1423, -560, -615, reci on/getter on-digi th 30ADC
+1424, -560, -615, reci on/getter on-digi th 30ADC
+1425, -560, -615, reci on/getter on-digi th 30ADC
+1426, -560, -615, reci on/getter on-digi th 30ADC
+1427, -560, -615, reci on/getter on-digi th 30ADC
+1428, -560, -615, reci on/getter on-digi th 30ADC
+1429, -560, -615, reci on/getter on-digi th 30ADC
+1430, -560, -615, reci on/getter on-digi th 30ADC
+1431, -560, -615, reci on/getter on-digi th 30ADC
+1432, -560, -615, reci on/getter on-digi th 30ADC
+1433, -560, -615, reci on/getter on-digi th 30ADC
+1434, -560, -615, reci on/getter on-digi th 30ADC
+1435, -560, -615, reci on/getter on-digi th 30ADC
+1436, -560, -615, reci on/getter on-digi th 30ADC
+1437, -560, -615, reci on/getter on-digi th 30ADC
+1438, -560, -615, reci on/getter on-digi th 30ADC
+1439, -560, -615, reci on/getter on-digi th 30ADC
+1440, -560, -615, reci on/getter on-digi th 30ADC
+1441, -560, -615, reci on/getter on-digi th 30ADC
+1442, -560, -615, reci on/getter on-digi th 30ADC
+1443, -560, -615, reci on/getter on-digi th 30ADC
+1444, -560, -615, reci on/getter on-digi th 30ADC
+1445, -560, -615, reci on/getter on-digi th 30ADC
+1446, -560, -615, reci on/getter on-digi th 30ADC
+1447, -560, -615, reci on/getter on-digi th 30ADC
+1448, -560, -615, reci on/getter on-digi th 30ADC
+1449, -560, -615, reci on/getter on-digi th 30ADC
+1450, -560, -615, reci on/getter on-digi th 30ADC
+1451, -560, -615, reci on/getter on-digi th 30ADC
+1452, -560, -615, reci on/getter on-digi th 30ADC
+1453, -560, -615, reci on/getter on-digi th 30ADC
+1454, -560, -615, reci on/getter on-digi th 30ADC
+1455, -560, -615, reci on/getter on-digi th 30ADC
+1456, -560, -615, reci on/getter on-digi th 30ADC
+1457, -560, -615, reci on/getter on-digi th 30ADC
+1458, -560, -615, reci on/getter on-digi th 30ADC
+1459, -560, -615, reci on/getter on-digi th 30ADC
+1460, -560, -615, reci on/getter on-digi th 30ADC
+1461, -560, -615, reci on/getter on-digi th 30ADC
+1462, -560, -615, reci on/getter on-digi th 30ADC
+1463, -560, -615, reci on/getter on-digi th 30ADC
+1464, -560, -615, reci on/getter on-digi th 30ADC
+1465, -560, -615, reci on/getter on-digi th 30ADC
+1466, -560, -615, reci on/getter on-digi th 30ADC
+1467, -560, -615, reci on/getter on-digi th 30ADC
+1468, -560, -615, reci on/getter on-digi th 30ADC
+1469, -560, -615, reci on/getter on-digi th 30ADC
+1470, -560, -615, reci on/getter on-digi th 30ADC
+1471, -560, -615, reci on/getter on-digi th 30ADC
+1472, -560, -615, reci on/getter on-digi th 30ADC
+1473, -560, -615, reci on/getter on-digi th 30ADC
+1474, -560, -615, reci on/getter on-digi th 30ADC
+1475, -560, -615, reci on/getter on-digi th 30ADC
+1476, -560, -615, reci on/getter on-digi th 30ADC
+1477, -560, -615, reci on/getter on-digi th 30ADC
+1478, -560, -615, reci on/getter on-digi th 30ADC
+1479, -560, -615, reci on/getter on-digi th 30ADC
+1480, -560, -615, reci on/getter on-digi th 30ADC
+1481, -560, -615, reci on/getter on-digi th 30ADC
+1482, -560, -615, reci on/getter on-digi th 30ADC
+1483, -560, -615, reci on/getter on-digi th 30ADC
+1484, -560, -615, reci on/getter on-digi th 30ADC
+1485, -560, -615, reci on/getter on-digi th 30ADC
+1486, -560, -615, reci on/getter on-digi th 30ADC
+1487, -560, -615, reci on/getter on-digi th 30ADC
+1488, -560, -615, reci on/getter on-digi th 30ADC
+1489, -560, -615, reci on/getter on-digi th 30ADC
+1490, -560, -615, reci on/getter on-digi th 30ADC
+1491, -560, -615, reci on/getter on-digi th 30ADC
+1492, -560, -615, reci on/getter on-digi th 30ADC
+1493, -560, -615, reci on/getter on-digi th 30ADC
+1494, -560, -615, reci on/getter on-digi th 30ADC
+1495, -560, -615, reci on/getter on-digi th 30ADC
+1496, -560, -615, reci on/getter on-digi th 30ADC
+1497, -560, -615, reci on/getter on-digi th 30ADC
+1498, -560, -615, reci on/getter on-digi th 30ADC
+1499, -560, -615, reci on/getter on-digi th 30ADC
+1500, -560, -605, reci on/getter on-digi th 30ADC
+1500, -560, -605, reci on/getter on-digi th 30ADC
+1500, -560, -605, reci on/getter on-digi th 30ADC
+1501, -560, -605, reci on/getter on-digi th 30ADC
+1502, -560, -605, reci on/getter on-digi th 30ADC
+1503, -560, -605, reci on/getter on-digi th 30ADC
+1504, -560, -605, reci on/getter on-digi th 30ADC
+1505, -560, -605, reci on/getter on-digi th 30ADC
+1506, -560, -605, reci on/getter on-digi th 30ADC
+1507, -560, -605, reci on/getter on-digi th 30ADC
+1508, -560, -605, reci on/getter on-digi th 30ADC
+1509, -560, -605, reci on/getter on-digi th 30ADC
+1510, -560, -605, reci on/getter on-digi th 30ADC
+1511, -560, -605, reci on/getter on-digi th 30ADC
+1512, -560, -605, reci on/getter on-digi th 30ADC
+1513, -560, -605, reci on/getter on-digi th 30ADC
+1514, -560, -605, reci on/getter on-digi th 30ADC
+1515, -560, -605, reci on/getter on-digi th 30ADC
+1516, -560, -605, reci on/getter on-digi th 30ADC
+1517, -560, -605, reci on/getter on-digi th 30ADC
+1518, -560, -605, reci on/getter on-digi th 30ADC
+1519, -560, -605, reci on/getter on-digi th 30ADC
+1520, -560, -590, reci on/getter on-digi th 30ADC
+1521, -560, -590, reci on/getter on-digi th 30ADC
+1522, -560, -590, reci on/getter on-digi th 30ADC
+1523, -560, -590, reci on/getter on-digi th 30ADC
+1524, -560, -590, reci on/getter on-digi th 30ADC
+1525, -560, -590, reci on/getter on-digi th 30ADC
+1526, -560, -590, reci on/getter on-digi th 30ADC
+1527, -560, -590, reci on/getter on-digi th 30ADC
+1528, -560, -590, reci on/getter on-digi th 30ADC
+1529, -560, -590, reci on/getter on-digi th 30ADC
+1530, -560, -590, reci on/getter on-digi th 30ADC
+1531, -560, -590, reci on/getter on-digi th 30ADC
+1532, -560, -590, reci on/getter on-digi th 30ADC
+1533, -560, -590, reci on/getter on-digi th 30ADC
+1534, -560, -590, reci on/getter on-digi th 30ADC
+1535, -560, -590, reci on/getter on-digi th 30ADC
+1536, -560, -590, reci on/getter on-digi th 30ADC
+1537, -560, -590, reci on/getter on-digi th 30ADC
+1538, -560, -590, reci on/getter on-digi th 30ADC
+1539, -560, -590, reci on/getter on-digi th 30ADC
+1540, -560, -590, reci on/getter on-digi th 30ADC
+1541, -560, -590, reci on/getter on-digi th 30ADC
+1542, -560, -590, reci on/getter on-digi th 30ADC
+1543, -560, -590, reci on/getter on-digi th 30ADC
+1544, -560, -590, reci on/getter on-digi th 30ADC
+1545, -560, -590, reci on/getter on-digi th 30ADC
+1546, -560, -590, reci on/getter on-digi th 30ADC
+1547, -560, -590, reci on/getter on-digi th 30ADC
+1548, -560, -590, reci on/getter on-digi th 30ADC
+1549, -560, -590, reci on/getter on-digi th 30ADC
+1550, -560, -590, reci on/getter on-digi th 30ADC
+1551, -560, -590, reci on/getter on-digi th 30ADC
+1552, -560, -590, reci on/getter on-digi th 30ADC
+1553, -560, -590, reci on/getter on-digi th 30ADC
+1554, -560, -590, reci on/getter on-digi th 30ADC
+1555, -560, -590, reci on/getter on-digi th 30ADC
+1556, -560, -590, reci on/getter on-digi th 30ADC
+1557, -560, -590, reci on/getter on-digi th 30ADC
+1558, -560, -590, reci on/getter on-digi th 30ADC
+1559, -560, -590, reci on/getter on-digi th 30ADC
+1560, -560, -590, reci on/getter on-digi th 30ADC
+1561, -560, -590, reci on/getter on-digi th 30ADC
+1562, -560, -590, reci on/getter on-digi th 30ADC
+1563, -560, -590, reci on/getter on-digi th 30ADC
+1564, -560, -590, reci on/getter on-digi th 30ADC
+1565, -560, -590, reci on/getter on-digi th 30ADC
+1566, -560, -590, reci on/getter on-digi th 30ADC
+1567, -560, -590, reci on/getter on-digi th 30ADC
+1568, -560, -590, reci on/getter on-digi th 30ADC
+1569, -560, -590, reci on/getter on-digi th 30ADC
+1570, -560, -590, reci on/getter on-digi th 30ADC
+1571, -560, -590, reci on/getter on-digi th 30ADC
+1572, -560, -590, reci on/getter on-digi th 30ADC
+1573, -560, -590, reci on/getter on-digi th 30ADC
+1574, -560, -590, reci on/getter on-digi th 30ADC
+1575, -560, -590, reci on/getter on-digi th 30ADC
+1576, -560, -590, reci on/getter on-digi th 30ADC
+1577, -560, -590, reci on/getter on-digi th 30ADC
+1578, -560, -590, reci on/getter on-digi th 30ADC
+1579, -560, -590, reci on/getter on-digi th 30ADC
+1580, -560, -590, reci on/getter on-digi th 30ADC
+1580, -560, -590, reci on/getter on-digi th 30ADC
+1580, -560, -590, reci on/getter on-digi th 30ADC
+1581, -560, -590, reci on/getter on-digi th 30ADC
+1582, -560, -590, reci on/getter on-digi th 30ADC
+1583, -560, -590, reci on/getter on-digi th 30ADC
+1584, -560, -590, reci on/getter on-digi th 30ADC
+1585, -560, -590, reci on/getter on-digi th 30ADC
+1586, -560, -590, reci on/getter on-digi th 30ADC
+1587, -560, -590, reci on/getter on-digi th 30ADC
+1588, -560, -590, reci on/getter on-digi th 30ADC
+1589, -560, -590, reci on/getter on-digi th 30ADC
+1590, -560, -590, reci on/getter off-digi th 30ADC
+1591, -560, -590, reci on/getter off-digi th 30ADC
+1592, -560, -590, reci on/getter off-digi th 30ADC
+1593, -560, -590, reci on/getter off-digi th 30ADC
+1594, -560, -590, reci on/getter off-digi th 30ADC
+1595, -560, -590, reci on/getter off-digi th 30ADC
+1596, -560, -590, reci off/getter off-digi th 30ADC
+1597, -560, -590, reci off/getter off-digi th 30ADC
+1598, -560, -590, reci off/getter off-digi th 30ADC
+1599, -560, -590, reci off/getter off-digi th 30ADC
+1600, -560, -590, reci off/getter off-digi th 30ADC
+1601, -560, -590, reci off/getter off-digi th 30ADC
+1602, -560, -590, reci off/getter off-digi th 30ADC
+1603, -560, -590, reci off/getter off-digi th 30ADC
+1604, -560, -590, reci off/getter off-digi th 30ADC
+1605, -560, -590, reci off/getter off-digi th 30ADC
+1606, -560, -590, reci off/getter off-digi th 30ADC
+1607, -560, -590, reci off/getter off-digi th 30ADC
+1608, -560, -590, reci off/getter off-digi th 30ADC
+1609, -560, -590, reci off/getter off-digi th 30ADC
+1610, -560, -590, reci off/getter off-digi th 30ADC
+1611, -560, -590, reci off/getter off-digi th 30ADC
+1612, -560, -590, reci off/getter off-digi th 30ADC
+1613, -560, -590, reci off/getter off-digi th 30ADC
+1614, -560, -590, reci off/getter off-digi th 30ADC
+1615, -560, -590, reci off/getter off-digi th 30ADC
+1616, -560, -590, reci off/getter off-digi th 30ADC
+1617, -560, -590, reci off/getter off-digi th 30ADC
+1618, -560, -590, reci off/getter off-digi th 30ADC
+1619, -560, -590, reci off/getter off-digi th 30ADC
+1620, -560, -590, reci off/getter off-digi th 30ADC
+1621, -560, -590, reci off/getter off-digi th 30ADC
+1622, -560, -590, reci off/getter off-digi th 30ADC
+1623, -560, -590, reci off/getter off-digi th 30ADC
+1624, -560, -590, reci off/getter off-digi th 30ADC
+1625, -560, -590, reci off/getter off-digi th 30ADC
+1626, -560, -590, reci off/getter off-digi th 30ADC
+1627, -560, -590, reci off/getter off-digi th 30ADC
+1628, -560, -590, reci off/getter off-digi th 30ADC
+1629, -560, -590, reci off/getter off-digi th 30ADC
+1630, -560, -590, reci off/getter off-digi th 30ADC
+1631, -560, -590, reci off/getter off-digi th 30ADC
+1632, -560, -590, reci off/getter off-digi th 30ADC
+1633, -560, -590, reci off/getter off-digi th 30ADC
+1634, -560, -590, reci off/getter off-digi th 30ADC
+1635, -560, -590, reci off/getter off-digi th 30ADC
+1636, -560, -590, reci off/getter off-digi th 30ADC
+1637, -560, -590, reci off/getter off-digi th 30ADC
+1638, -560, -590, reci off/getter off-digi th 30ADC
+1639, -560, -590, reci off/getter off-digi th 30ADC
+1640, -560, -590, reci off/getter off-digi th 30ADC
+1641, -560, -590, reci off/getter off-digi th 30ADC
+1642, -560, -590, reci off/getter off-digi th 30ADC
+1643, -560, -590, reci off/getter off-digi th 30ADC
+1644, -560, -590, reci off/getter off-digi th 30ADC
+1645, -560, -590, reci off/getter off-digi th 30ADC
+1646, -560, -590, reci off/getter off-digi th 30ADC
+1647, -560, -590, reci off/getter off-digi th 30ADC
+1648, -560, -590, reci off/getter off-digi th 30ADC
+1649, -560, -590, reci off/getter off-digi th 30ADC
+1650, -560, -590, reci off/getter off-digi th 30ADC
+1651, -560, -590, reci off/getter off-digi th 30ADC
+1652, -560, -590, reci off/getter off-digi th 30ADC
+1653, -560, -590, reci off/getter off-digi th 30ADC
+1654, -560, -590, reci off/getter off-digi th 30ADC
+1655, -560, -590, reci off/getter off-digi th 30ADC
+1656, -560, -590, reci off/getter off-digi th 30ADC
+1657, -560, -590, reci off/getter off-digi th 30ADC
+1658, -560, -590, reci off/getter off-digi th 30ADC
+1659, -560, -590, reci off/getter off-digi th 30ADC
+1660, -560, -590, reci off/getter off-digi th 30ADC
+1661, -560, -590, reci off/getter off-digi th 30ADC
+1662, -560, -590, reci off/getter off-digi th 30ADC
+1663, -560, -590, reci off/getter off-digi th 30ADC
+1664, -560, -590, reci off/getter off-digi th 30ADC
+1665, -560, -590, reci off/getter off-digi th 30ADC
+1666, -560, -590, reci off/getter off-digi th 30ADC
+1667, -560, -590, reci off/getter off-digi th 30ADC
+1668, -560, -590, reci off/getter off-digi th 30ADC
+1669, -560, -590, reci off/getter off-digi th 30ADC
+1670, -560, -590, reci off/getter off-digi th 30ADC
+1671, -560, -590, reci off/getter off-digi th 30ADC
+1672, -560, -590, reci off/getter off-digi th 30ADC
+1673, -560, -590, reci off/getter off-digi th 30ADC
+1674, -560, -590, reci off/getter off-digi th 30ADC
+1675, -560, -590, reci off/getter off-digi th 30ADC
+1676, -560, -590, reci off/getter off-digi th 30ADC
+1677, -560, -590, reci off/getter off-digi th 30ADC
+1678, -560, -590, reci off/getter off-digi th 30ADC
+1679, -560, -590, reci off/getter off-digi th 30ADC
+1680, -560, -590, reci off/getter off-digi th 30ADC
+1681, -560, -590, reci off/getter off-digi th 30ADC
+1682, -560, -590, reci off/getter off-digi th 30ADC
+1683, -560, -590, reci off/getter off-digi th 30ADC
+1684, -560, -590, reci off/getter off-digi th 30ADC
+1685, -560, -590, reci off/getter off-digi th 30ADC
+1686, -560, -590, reci off/getter off-digi th 30ADC
+1687, -560, -590, reci off/getter off-digi th 30ADC
+1688, -560, -590, reci off/getter off-digi th 30ADC
+1689, -560, -590, reci off/getter off-digi th 30ADC
+1690, -560, -590, reci off/getter off-digi th 30ADC
+1691, -560, -590, reci off/getter off-digi th 30ADC
+1692, -560, -590, reci off/getter off-digi th 30ADC
+1693, -560, -590, reci off/getter off-digi th 30ADC
+1694, -560, -590, reci off/getter off-digi th 30ADC
+1695, -560, -590, reci off/getter off-digi th 30ADC
+1696, -560, -590, reci off/getter off-digi th 30ADC
+1697, -560, -590, reci off/getter off-digi th 30ADC
+1698, -560, -590, reci off/getter off-digi th 30ADC
+1699, -560, -590, reci off/getter off-digi th 30ADC
+1700, -560, -590, reci off/getter off-digi th 30ADC
+1701, -560, -590, reci off/getter off-digi th 30ADC
+1702, -560, -590, reci off/getter off-digi th 30ADC
+1703, -560, -590, reci off/getter off-digi th 30ADC
+1704, -560, -590, reci off/getter off-digi th 30ADC
+1705, -560, -590, reci off/getter off-digi th 30ADC
+1706, -560, -590, reci off/getter off-digi th 30ADC
+1707, -560, -590, reci off/getter off-digi th 30ADC
+1708, -560, -590, reci off/getter off-digi th 30ADC
+1709, -560, -590, reci off/getter off-digi th 30ADC
+1710, -560, -590, reci off/getter off-digi th 30ADC
+1711, -560, -590, reci off/getter off-digi th 30ADC
+1712, -560, -590, reci off/getter off-digi th 30ADC
+1713, -560, -590, reci off/getter off-digi th 30ADC
+1714, -560, -590, reci off/getter off-digi th 30ADC
+1715, -560, -590, reci off/getter off-digi th 30ADC
+1716, -560, -590, reci off/getter off-digi th 30ADC
+1717, -560, -590, reci off/getter off-digi th 30ADC
+1718, -560, -590, reci off/getter off-digi th 30ADC
+1719, -560, -590, reci off/getter off-digi th 30ADC
+1720, -560, -590, reci off/getter off-digi th 30ADC
+1721, -560, -590, reci off/getter off-digi th 30ADC
+1722, -560, -590, reci off/getter off-digi th 30ADC
+1723, -560, -590, reci off/getter off-digi th 30ADC
+1724, -560, -590, reci off/getter off-digi th 30ADC
+1725, -560, -590, reci off/getter off-digi th 30ADC
+1726, -560, -590, reci off/getter off-digi th 30ADC
+1727, -560, -590, reci off/getter off-digi th 30ADC
+1728, -560, -590, reci off/getter off-digi th 30ADC
+1729, -560, -590, reci off/getter off-digi th 30ADC
+1730, -560, -590, reci off/getter off-digi th 30ADC
+1731, -560, -590, reci off/getter off-digi th 30ADC
+1732, -560, -590, reci off/getter off-digi th 30ADC
+1733, -560, -590, reci off/getter off-digi th 30ADC
+1734, -560, -590, reci off/getter off-digi th 30ADC
+1735, -560, -590, reci off/getter off-digi th 30ADC
+1736, -560, -590, reci off/getter off-digi th 30ADC
+1737, -560, -590, reci off/getter off-digi th 30ADC
+1738, -560, -590, reci off/getter off-digi th 30ADC
+1739, -560, -590, reci off/getter off-digi th 30ADC
+1740, -560, -590, reci off/getter off-digi th 30ADC
+1741, -560, -590, reci off/getter off-digi th 30ADC
+1742, -560, -590, reci off/getter off-digi th 30ADC
+1743, -560, -590, reci off/getter off-digi th 30ADC
+1744, -560, -590, reci off/getter off-digi th 30ADC
+1745, -560, -590, reci off/getter off-digi th 30ADC
+1746, -560, -590, reci off/getter off-digi th 30ADC
+1747, -560, -590, reci off/getter off-digi th 30ADC
+1748, -560, -590, reci off/getter off-digi th 30ADC
+1749, -560, -590, reci off/getter off-digi th 30ADC
+1750, -560, -590, reci off/getter off-digi th 30ADC
+1751, -560, -590, reci off/getter off-digi th 30ADC
+1752, -560, -590, reci off/getter off-digi th 30ADC
+1753, -560, -590, reci off/getter off-digi th 30ADC
+1754, -560, -590, reci off/getter off-digi th 30ADC
+1755, -560, -590, reci off/getter off-digi th 30ADC
+1756, -560, -590, reci off/getter off-digi th 30ADC
+1757, -560, -590, reci off/getter off-digi th 30ADC
+1758, -560, -590, reci off/getter off-digi th 30ADC
+1759, -560, -590, reci off/getter off-digi th 30ADC
+1760, -560, -590, reci off/getter off-digi th 30ADC
+1761, -560, -590, reci off/getter off-digi th 30ADC
+1762, -560, -590, reci off/getter off-digi th 30ADC
+1763, -560, -590, reci off/getter off-digi th 30ADC
+1764, -560, -590, reci off/getter off-digi th 30ADC
+1765, -560, -590, reci off/getter off-digi th 30ADC
+1766, -560, -590, reci off/getter off-digi th 30ADC
+1767, -560, -590, reci off/getter off-digi th 30ADC
+1768, -560, -590, reci off/getter off-digi th 30ADC
+1769, -560, -590, reci off/getter off-digi th 30ADC
+1770, -560, -590, reci off/getter off-digi th 30ADC
+1771, -560, -590, reci off/getter off-digi th 30ADC
+1772, -560, -590, reci off/getter off-digi th 30ADC
+1773, -560, -590, reci off/getter off-digi th 30ADC
+1774, -560, -590, reci off/getter off-digi th 30ADC
+1775, -560, -590, reci off/getter off-digi th 30ADC
+1776, -560, -590, reci off/getter off-digi th 30ADC
+1777, -560, -590, reci off/getter off-digi th 30ADC
+1778, -560, -590, reci off/getter off-digi th 30ADC
+1779, -560, -590, reci off/getter off-digi th 30ADC
+1780, -560, -590, reci off/getter off-digi th 30ADC
+1781, -560, -590, reci off/getter off-digi th 30ADC
+1782, -560, -590, reci off/getter off-digi th 30ADC
+1783, -560, -590, reci off/getter off-digi th 30ADC
+1784, -560, -590, reci off/getter off-digi th 30ADC
+1785, -560, -590, reci off/getter off-digi th 30ADC
+1786, -560, -590, reci off/getter off-digi th 30ADC
+1787, -560, -590, reci off/getter off-digi th 30ADC
+1788, -560, -590, reci off/getter off-digi th 30ADC
+1789, -560, -590, reci off/getter off-digi th 30ADC
+1790, -560, -590, reci off/getter off-digi th 30ADC
+1791, -560, -590, reci off/getter off-digi th 30ADC
+1792, -560, -590, reci off/getter off-digi th 30ADC
+1793, -560, -590, reci off/getter off-digi th 30ADC
+1794, -560, -590, reci off/getter off-digi th 30ADC
+1795, -560, -590, reci off/getter off-digi th 30ADC
+1796, -560, -590, reci off/getter off-digi th 30ADC
+1797, -560, -590, reci off/getter off-digi th 30ADC
+1798, -560, -590, reci off/getter off-digi th 30ADC
+1799, -560, -590, reci off/getter off-digi th 30ADC
+1800, -560, -590, reci off/getter off-digi th 30ADC
+1801, -560, -590, reci off/getter off-digi th 30ADC
+1802, -560, -590, reci off/getter off-digi th 30ADC
+1803, -560, -590, reci off/getter off-digi th 30ADC
+1804, -560, -590, reci off/getter off-digi th 30ADC
+1805, -560, -590, reci off/getter off-digi th 30ADC
+1806, -560, -590, reci off/getter off-digi th 30ADC
+1807, -560, -590, reci off/getter off-digi th 30ADC
+1808, -560, -590, reci off/getter off-digi th 30ADC
+1809, -560, -590, reci off/getter off-digi th 30ADC
+1810, -560, -590, reci off/getter off-digi th 30ADC
+1811, -560, -590, reci off/getter off-digi th 30ADC
+1812, -560, -590, reci off/getter off-digi th 30ADC
+1813, -560, -590, reci off/getter off-digi th 30ADC
+1814, -560, -590, reci off/getter off-digi th 30ADC
+1815, -560, -590, reci off/getter off-digi th 30ADC
+1816, -560, -590, reci off/getter off-digi th 30ADC
+1817, -560, -590, reci off/getter off-digi th 30ADC
+1818, -560, -590, reci off/getter off-digi th 30ADC
+1819, -560, -590, reci off/getter off-digi th 30ADC
+1820, -560, -590, reci off/getter off-digi th 30ADC
+1821, -560, -590, reci off/getter off-digi th 30ADC
+1822, -560, -590, reci off/getter off-digi th 30ADC
+1823, -560, -590, reci off/getter off-digi th 30ADC
+1824, -560, -590, reci off/getter off-digi th 30ADC
+1825, -560, -590, reci off/getter off-digi th 30ADC
+1826, -560, -590, reci off/getter off-digi th 30ADC
+1827, -560, -590, reci off/getter off-digi th 30ADC
+1828, -560, -590, reci off/getter off-digi th 30ADC
+1829, -560, -590, reci off/getter off-digi th 30ADC
+1830, -560, -590, reci off/getter off-digi th 30ADC
+1831, -560, -590, reci off/getter off-digi th 30ADC
+1832, -560, -590, reci off/getter off-digi th 30ADC
+1833, -560, -590, reci off/getter off-digi th 30ADC
+1834, -560, -590, reci off/getter off-digi th 30ADC
+1835, -560, -590, reci off/getter off-digi th 30ADC
+1836, -560, -590, reci off/getter off-digi th 30ADC
+1837, -560, -590, reci off/getter off-digi th 30ADC
+1838, -560, -590, reci off/getter off-digi th 30ADC
+1839, -560, -590, reci off/getter off-digi th 30ADC
+1840, -560, -590, reci off/getter off-digi th 30ADC
+1841, -560, -590, reci off/getter off-digi th 30ADC
+1842, -560, -590, reci off/getter off-digi th 30ADC
+1843, -560, -590, reci off/getter off-digi th 30ADC
+1844, -560, -590, reci off/getter off-digi th 30ADC
+1845, -560, -590, reci off/getter off-digi th 30ADC
+1846, -560, -590, reci off/getter off-digi th 30ADC
+1847, -560, -590, reci off/getter off-digi th 30ADC
+1848, -560, -590, reci off/getter off-digi th 30ADC
+1849, -560, -590, reci off/getter off-digi th 30ADC
+1850, -560, -590, reci off/getter off-digi th 30ADC
+1851, -560, -590, reci off/getter off-digi th 30ADC
+1852, -560, -590, reci off/getter off-digi th 30ADC
+1853, -560, -590, reci off/getter off-digi th 30ADC
+1854, -560, -590, reci off/getter off-digi th 30ADC
+1855, -560, -590, reci off/getter off-digi th 30ADC
+1856, -560, -590, reci off/getter off-digi th 30ADC
+1857, -560, -590, reci off/getter off-digi th 30ADC
+1858, -560, -590, reci off/getter off-digi th 30ADC
+1859, -560, -590, reci off/getter off-digi th 30ADC
+1860, -560, -590, reci off/getter off-digi th 30ADC
+1861, -560, -590, reci off/getter off-digi th 30ADC
+1862, -560, -590, reci off/getter off-digi th 30ADC
+1863, -560, -590, reci off/getter off-digi th 30ADC
+1864, -560, -590, reci off/getter off-digi th 30ADC
+1865, -560, -590, reci off/getter off-digi th 30ADC
+1866, -560, -590, reci off/getter off-digi th 30ADC
+1867, -560, -590, reci off/getter off-digi th 30ADC
+1868, -560, -590, reci off/getter off-digi th 30ADC
+1869, -560, -590, reci off/getter off-digi th 30ADC
+1870, -560, -590, reci off/getter off-digi th 30ADC
+1871, -560, -590, reci off/getter off-digi th 30ADC
+1872, -560, -590, reci off/getter off-digi th 30ADC
+1873, -560, -590, reci off/getter off-digi th 30ADC
+1874, -560, -590, reci off/getter off-digi th 30ADC
+1875, -560, -590, reci off/getter off-digi th 30ADC
+1876, -560, -590, reci off/getter off-digi th 30ADC
+1877, -560, -590, reci off/getter off-digi th 30ADC
+1878, -560, -590, reci off/getter off-digi th 30ADC
+1879, -560, -590, reci off/getter off-digi th 30ADC
+1880, -560, -590, reci off/getter off-digi th 30ADC
+1881, -560, -590, reci off/getter off-digi th 30ADC
+1882, -560, -590, reci off/getter off-digi th 30ADC
+1883, -560, -590, reci off/getter off-digi th 30ADC
+1884, -560, -590, reci off/getter off-digi th 30ADC
+1885, -560, -590, reci off/getter off-digi th 30ADC
+1886, -560, -590, reci off/getter off-digi th 30ADC
+1887, -560, -590, reci off/getter off-digi th 30ADC
+1888, -560, -590, reci off/getter off-digi th 30ADC
+1889, -560, -590, reci off/getter off-digi th 30ADC
+1890, -560, -590, reci off/getter off-digi th 30ADC
+1891, -560, -590, reci off/getter off-digi th 30ADC
+1892, -560, -590, reci off/getter off-digi th 30ADC
+1893, -560, -590, reci off/getter off-digi th 30ADC
+1894, -560, -590, reci off/getter off-digi th 30ADC
+1895, -560, -590, reci off/getter off-digi th 30ADC
+1896, -560, -590, reci off/getter off-digi th 30ADC
+1897, -560, -590, reci off/getter off-digi th 30ADC
+1898, -560, -590, reci off/getter off-digi th 30ADC
+1899, -560, -590, reci off/getter off-digi th 30ADC
+1900, -560, -590, reci off/getter off-digi th 30ADC
+1901, -560, -590, reci off/getter off-digi th 30ADC
+1902, -560, -590, reci off/getter off-digi th 30ADC
+1903, -560, -590, reci off/getter off-digi th 30ADC
+1904, -560, -590, reci off/getter off-digi th 30ADC
+1905, -560, -590, reci off/getter off-digi th 30ADC
+1906, -560, -590, reci off/getter off-digi th 30ADC
+1907, -560, -590, reci off/getter off-digi th 30ADC
+1908, -560, -590, reci off/getter off-digi th 30ADC
+1909, -560, -590, reci off/getter off-digi th 30ADC
+1910, -560, -590, reci off/getter off-digi th 30ADC
+1911, -560, -590, reci off/getter off-digi th 30ADC
+1912, -560, -590, reci off/getter off-digi th 30ADC
+1913, -560, -590, reci off/getter off-digi th 30ADC
+1914, -560, -590, reci off/getter off-digi th 30ADC
+1915, -560, -590, reci off/getter off-digi th 30ADC
+1916, -560, -590, reci off/getter off-digi th 30ADC
+1917, -560, -590, reci off/getter off-digi th 30ADC
+1918, -560, -590, reci off/getter off-digi th 30ADC
+1919, -560, -590, reci off/getter off-digi th 30ADC
+1920, -560, -590, reci off/getter off-digi th 30ADC
+1921, -560, -590, reci off/getter off-digi th 30ADC
+1922, -560, -590, reci off/getter off-digi th 30ADC
+1923, -560, -590, reci off/getter off-digi th 30ADC
+1924, -560, -590, reci off/getter off-digi th 30ADC
+1925, -560, -590, reci off/getter off-digi th 30ADC
+1926, -560, -590, reci off/getter off-digi th 30ADC
+1927, -560, -590, reci off/getter off-digi th 30ADC
+1928, -560, -590, reci off/getter off-digi th 30ADC
+1929, -560, -590, reci off/getter off-digi th 30ADC
+1930, -560, -590, reci off/getter off-digi th 30ADC
+1931, -560, -590, reci off/getter off-digi th 30ADC
+1932, -560, -590, reci off/getter off-digi th 30ADC
+1933, -560, -590, reci off/getter off-digi th 30ADC
+1934, -560, -590, reci off/getter off-digi th 30ADC
+1935, -560, -590, reci off/getter off-digi th 30ADC
+1936, -560, -590, reci off/getter off-digi th 30ADC
+1937, -560, -590, reci off/getter off-digi th 30ADC
+1938, -560, -590, reci off/getter off-digi th 30ADC
+1939, -560, -590, reci off/getter off-digi th 30ADC
+1940, -560, -590, reci off/getter off-digi th 30ADC
+1941, -560, -590, reci off/getter off-digi th 30ADC
+1942, -560, -590, reci off/getter off-digi th 30ADC
+1943, -560, -590, reci off/getter off-digi th 30ADC
+1944, -560, -590, reci off/getter off-digi th 30ADC
+1945, -560, -590, reci on/getter off-digi th 30ADC
+1946, -560, -590, reci on/getter off-digi th 30ADC
+1947, -560, -590, reci on/getter off-digi th 30ADC
+1948, -560, -590, reci on/getter off-digi th 30ADC
+1949, -560, -590, reci on/getter off-digi th 30ADC
+1950, -560, -590, reci on/getter off-digi th 30ADC
+1951, -560, -590, reci on/getter off-digi th 30ADC
+1952, -560, -590, reci on/getter on-digi th 30ADC
+1953, -560, -590, reci on/getter on-digi th 30ADC
+1954, -560, -590, reci on/getter on-digi th 30ADC
+1955, -560, -590, reci on/getter on-digi th 30ADC
+1956, -560, -590, reci on/getter on-digi th 30ADC
+1957, -560, -590, reci on/getter on-digi th 30ADC
+1958, -560, -590, reci on/getter on-digi th 30ADC
+1959, -560, -590, reci on/getter on-digi th 30ADC
+1960, -560, -590, reci on/getter on-digi th 30ADC
+1961, -560, -590, reci on/getter on-digi th 30ADC
+1962, -560, -590, reci on/getter on-digi th 30ADC
+1963, -560, -590, reci on/getter on-digi th 30ADC
+1964, -560, -590, reci on/getter on-digi th 30ADC
+1965, -560, -590, reci on/getter on-digi th 30ADC
+1966, -560, -590, reci on/getter on-digi th 30ADC
+1967, -560, -590, reci on/getter on-digi th 30ADC
+1968, -560, -590, reci on/getter on-digi th 30ADC
+1969, -560, -590, reci on/getter on-digi th 30ADC
+1970, -560, -590, reci on/getter on-digi th 30ADC
+1971, -560, -590, reci on/getter on-digi th 30ADC
+1972, -560, -590, reci on/getter on-digi th 30ADC
+1973, -560, -590, reci on/getter on-digi th 30ADC
+1974, -560, -590, reci on/getter on-digi th 30ADC
+1975, -560, -590, reci on/getter on-digi th 30ADC
+1976, -560, -590, reci on/getter on-digi th 30ADC
+1977, -560, -590, reci on/getter on-digi th 30ADC
+1978, -560, -590, reci on/getter on-digi th 30ADC
+1979, -560, -590, reci on/getter on-digi th 30ADC
+1980, -560, -590, reci on/getter on-digi th 30ADC
+1981, -560, -590, reci on/getter on-digi th 30ADC
+1982, -560, -590, reci on/getter on-digi th 30ADC
+1983, -560, -590, reci on/getter on-digi th 30ADC
+1984, -560, -590, reci on/getter on-digi th 30ADC
+1985, -560, -590, reci on/getter on-digi th 30ADC
+1986, -560, -590, reci on/getter on-digi th 30ADC
+1987, -560, -590, reci on/getter on-digi th 30ADC
+1988, -560, -590, reci on/getter on-digi th 30ADC
+1989, -560, -590, reci on/getter on-digi th 30ADC
+1990, -560, -590, reci on/getter on-digi th 30ADC
+1991, -560, -590, reci on/getter on-digi th 30ADC
+1992, -560, -590, reci on/getter on-digi th 30ADC
+1993, -560, -590, reci on/getter on-digi th 30ADC
+1994, -560, -590, reci on/getter on-digi th 30ADC
+1995, -560, -590, reci on/getter on-digi th 30ADC
+1996, -560, -590, reci on/getter on-digi th 30ADC
+1997, -560, -590, reci on/getter on-digi th 30ADC
+1998, -560, -590, reci on/getter on-digi th 30ADC
+1999, -560, -590, reci on/getter on-digi th 30ADC
+2000, -560, -590, reci on/getter on-digi th 30ADC
+2001, -560, -590, reci on/getter on-digi th 30ADC
+2002, -560, -590, reci on/getter on-digi th 30ADC
+2003, -560, -590, reci on/getter on-digi th 30ADC
+2004, -560, -590, reci on/getter on-digi th 30ADC
+2005, -560, -590, reci on/getter on-digi th 30ADC
+2006, -560, -590, reci on/getter on-digi th 30ADC
+2007, -560, -590, reci on/getter on-digi th 30ADC
+2008, -560, -590, reci on/getter on-digi th 30ADC
+2009, -560, -590, reci on/getter on-digi th 30ADC
+2010, -560, -590, reci on/getter on-digi th 30ADC
+2011, -560, -590, reci on/getter on-digi th 30ADC
+2012, -560, -590, reci on/getter on-digi th 30ADC
+2013, -560, -590, reci on/getter on-digi th 30ADC
+2014, -560, -590, reci on/getter on-digi th 30ADC
+2015, -560, -590, reci on/getter on-digi th 30ADC
+2016, -560, -590, reci on/getter on-digi th 30ADC
+2017, -560, -590, reci on/getter on-digi th 30ADC
+2018, -560, -590, reci on/getter on-digi th 30ADC
+2019, -560, -590, reci on/getter on-digi th 30ADC
+2020, -560, -590, reci on/getter on-digi th 30ADC
+2021, -560, -590, reci on/getter on-digi th 30ADC
+2022, -560, -590, reci on/getter on-digi th 30ADC
+2023, -560, -590, reci on/getter on-digi th 30ADC
+2024, -560, -590, reci on/getter on-digi th 30ADC
+2025, -560, -590, reci on/getter on-digi th 30ADC
+2026, -560, -560, reci on/getter on-digi th 30ADC
+2027, -560, -560, reci on/getter on-digi th 30ADC
+2028, -560, -560, reci on/getter on-digi th 30ADC
+2029, -560, -560, reci on/getter on-digi th 30ADC
+2030, -560, -560, reci on/getter on-digi th 30ADC
+2031, -560, -560, reci on/getter on-digi th 30ADC
+2032, -560, -560, reci on/getter on-digi th 30ADC
+2033, -560, -560, reci on/getter on-digi th 30ADC
+2034, -560, -560, reci on/getter on-digi th 30ADC
+2035, -560, -560, reci on/getter on-digi th 30ADC
+2036, -560, -560, reci on/getter on-digi th 30ADC
+2037, -560, -560, reci on/getter on-digi th 30ADC
+2038, -560, -560, reci on/getter on-digi th 30ADC
+2039, -560, -560, reci on/getter on-digi th 30ADC
+2040, -560, -560, reci on/getter on-digi th 30ADC
+2041, -560, -560, reci on/getter on-digi th 30ADC
+2042, -560, -560, reci on/getter on-digi th 30ADC
+2043, -560, -560, reci on/getter on-digi th 30ADC
+2044, -560, -560, reci on/getter on-digi th 30ADC
+2045, -560, -560, reci on/getter on-digi th 30ADC
+2046, -560, -560, reci on/getter on-digi th 30ADC
+2047, -560, -560, reci on/getter on-digi th 30ADC
+2048, -560, -560, reci on/getter on-digi th 30ADC
+2049, -560, -560, reci on/getter on-digi th 30ADC
+2050, -560, -560, reci on/getter on-digi th 30ADC
+2051, -560, -560, reci on/getter on-digi th 30ADC
+2052, -560, -560, reci on/getter on-digi th 30ADC
+2053, -560, -560, reci on/getter on-digi th 30ADC
+2054, -560, -560, reci on/getter on-digi th 30ADC
+2055, -560, -560, reci on/getter on-digi th 30ADC
+2056, -560, -560, reci on/getter on-digi th 30ADC
+2057, -560, -560, reci on/getter on-digi th 30ADC
+2058, -560, -560, reci on/getter on-digi th 30ADC
+2059, -560, -560, reci on/getter on-digi th 30ADC
+2060, -560, -560, reci on/getter on-digi th 30ADC
+2061, -560, -560, reci on/getter on-digi th 30ADC
+2062, -560, -560, reci on/getter on-digi th 30ADC
+2063, -560, -560, reci on/getter on-digi th 30ADC
+2064, -560, -560, reci on/getter on-digi th 30ADC
+2065, -560, -560, reci on/getter on-digi th 30ADC
+2066, -560, -560, reci on/getter on-digi th 30ADC
+2067, -560, -560, reci on/getter on-digi th 30ADC
+2068, -560, -560, reci on/getter on-digi th 30ADC
+2069, -560, -560, reci on/getter on-digi th 30ADC
+2070, -560, -560, reci on/getter on-digi th 30ADC
+2071, -560, -560, reci on/getter on-digi th 30ADC
+2072, -560, -560, reci on/getter on-digi th 30ADC
+2073, -560, -560, reci on/getter on-digi th 30ADC
+2074, -560, -560, reci on/getter on-digi th 30ADC
+2075, -560, -560, reci on/getter on-digi th 30ADC
+2076, -560, -560, reci on/getter on-digi th 30ADC
+2077, -560, -560, reci on/getter on-digi th 30ADC
+2078, -560, -560, reci on/getter on-digi th 30ADC
+2079, -560, -560, reci on/getter on-digi th 30ADC
+2080, -560, -560, reci on/getter on-digi th 30ADC
+2081, -560, -560, reci on/getter on-digi th 30ADC
+2082, -560, -560, reci on/getter on-digi th 30ADC
+2083, -560, -560, reci on/getter on-digi th 30ADC
+2084, -560, -560, reci on/getter on-digi th 30ADC
+2085, -560, -560, reci on/getter on-digi th 30ADC
+2086, -560, -560, reci on/getter on-digi th 30ADC
+2087, -560, -560, reci on/getter on-digi th 30ADC
+2088, -560, -560, reci on/getter on-digi th 30ADC
+2089, -560, -560, reci on/getter on-digi th 30ADC
+2090, -560, -560, reci on/getter on-digi th 30ADC
+2091, -560, -560, reci on/getter on-digi th 30ADC
+2092, -560, -560, reci on/getter on-digi th 30ADC
+2093, -560, -560, reci on/getter on-digi th 30ADC
+2094, -560, -560, reci on/getter on-digi th 30ADC
+2095, -560, -560, reci on/getter on-digi th 30ADC
+2096, -560, -560, reci on/getter on-digi th 30ADC
+2097, -560, -560, reci on/getter on-digi th 30ADC
+2098, -560, -560, reci on/getter on-digi th 30ADC
+2099, -560, -560, reci on/getter on-digi th 30ADC
+2100, -560, -560, reci on/getter on-digi th 30ADC
+2101, -560, -560, reci on/getter on-digi th 30ADC
+2102, -560, -560, reci on/getter on-digi th 30ADC
+2103, -560, -560, reci on/getter on-digi th 30ADC
+2104, -560, -560, reci on/getter on-digi th 30ADC
+2105, -560, -560, reci on/getter on-digi th 30ADC
+2106, -560, -560, reci on/getter on-digi th 30ADC
+2107, -560, -560, reci on/getter on-digi th 30ADC
+2108, -560, -560, reci on/getter on-digi th 30ADC
+2109, -560, -560, reci on/getter on-digi th 30ADC
