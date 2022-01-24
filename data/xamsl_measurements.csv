@@ -1,4 +1,4 @@
-run, pmt_bottom_v, pmt_top_v, notes
+run,pmt_bottom_v,pmt_top_v,notes
 283, -850, -850, LXe filling
 284, -850, -850, LXe filling-reci on/getter off
 285, -850, -850, LXe filling-reci on/getter off
@@ -270,7 +270,7 @@ run, pmt_bottom_v, pmt_top_v, notes
 565, -700, -700, reci off/getter off-digi th 200mV
 566, -700, -700, reci off/getter off-digi th 200mV
 567, -700, -700, reci on/getter on-digi th 200mV
-568, -520, -590, reference run for test, reci on/getter on-digi th 200mV
+568, -520, -590, reference run for test-reci on/getter on-digi th 200mV
 569, -520, -590, reci on/getter on-digi th 200mV-new HV cables
 570, -620, -740, reci on/getter on-digi th 500mV-new HV cables
 571, -520, -590, reci on/getter on-digi th 200mV-new signal cables
