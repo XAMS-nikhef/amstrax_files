@@ -24,6 +24,7 @@ def validate_correction_file(file_path):
     ).stdout
 
     if current_version:
+        print(f"Found current version of {file_path}, current_version = {current_version}")
         current_corrections = json.loads(current_version)
     else:
         current_corrections = {}
