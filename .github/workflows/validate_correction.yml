@@ -3,7 +3,11 @@ name: Validate Corrections
 on:
   pull_request:
     branches:
-      - master
+      - master  # Trigger on pull requests to master
+  push:
+    branches:
+      - master  # Run when code is pushed to master
+
 
 jobs:
   validate:
