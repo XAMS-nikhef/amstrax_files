@@ -3,7 +3,11 @@ name: Validate Corrections
 on:
   pull_request:
     branches:
-      - master
+      - master  # Trigger on pull requests to master
+  push:
+    branches:
+      - master  # Run when code is pushed to master
+
 
 jobs:
   validate:
@@ -23,4 +27,4 @@ jobs:
           pip install -r requirements.txt  # If you have dependencies
 
       - name: Run correction validation
-        run: python tests/test_validate_corrections.py
+        run: python tests/validate_corrections.py
