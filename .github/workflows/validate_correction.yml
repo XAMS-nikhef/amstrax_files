@@ -1,0 +1,26 @@
+name: Validate Corrections
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+
+      - name: Install python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt  # If you have dependencies
+
+      - name: Run correction validation
+        run: python tests/test_validate_corrections.py
