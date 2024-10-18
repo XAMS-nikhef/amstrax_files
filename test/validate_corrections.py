@@ -8,7 +8,10 @@ def get_diff_files(directory):
     result = subprocess.run(
         ["git", "diff", "--name-only", "HEAD^", "--", directory], capture_output=True, text=True
     )
+
+    print(result.stdout)
     changed_files = result.stdout.strip().split("\n")
+    print(changed_files)
     return [f for f in changed_files if f]
 
 def get_all_files(directory):
