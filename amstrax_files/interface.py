@@ -2,10 +2,12 @@ import os
 import pkg_resources
 import amstrax_files
 from amstrax_files.utils import read_file
+import requests
 
 export, __all__ = amstrax_files.exporter()
 
 GITHUB_RAW_URL = "https://raw.githubusercontent.com/XAMS-nikhef/amstrax_files/master/corrections/"
+GITHUB_RAW_URL = "https://raw.githubusercontent.com/XAMS-nikhef/amstrax_files/xams_corrections/corrections/"
 
 
 @export
@@ -24,17 +26,6 @@ def get_file(file_name):
     """
     p = _package_path("data")
     return _get_file(file_name, get_from=p)
-
-
-# @export
-# def get_correction(file_name):
-#     """
-#     Get files stored under strax_files. Add "fmt = <format>" as an
-#     argument to read a specific format. otherwise we will assume it's in
-#     a text format. See straxen.get_recourse for more info.
-#     """
-#     p = _package_path("corrections")
-#     return _get_file(file_name, get_from=p)
 
 
 @export
@@ -61,7 +52,9 @@ def _fetch_from_github(file_name):
 
     if response.status_code == 200:
         # Successfully fetched the file, return its contents
-        return response.text
+        print(f"Fetched {file_name} from GitHub")
+        # return it as a json file (as a dictionary)
+        return response.json()
     else:
         raise FileNotFoundError(f"File {file_name} not found in GitHub repository")
 
