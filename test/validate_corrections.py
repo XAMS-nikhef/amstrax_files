@@ -19,7 +19,7 @@ def validate_correction_file(file_path):
     """Validate that no past data is modified in the correction file."""
 
     # Load the current (pre-PR) version of the file from master branch
-    current_corrections = subprocess.run(
+    current_version = subprocess.run(
         ["git", "show", f"origin/master:{file_path}"], capture_output=True, text=True
     ).stdout
 
