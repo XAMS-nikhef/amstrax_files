@@ -4,14 +4,11 @@ import subprocess
 
 def get_diff_files(directory):
     """Get a list of modified files in the pull request from the given directory."""
-    # Fetch the diff between the current branch and master
+    # Compare the current branch with the target branch (usually 'origin/master')
     result = subprocess.run(
-        ["git", "diff", "--name-only", "HEAD^", "--", directory], capture_output=True, text=True
+        ["git", "diff", "--name-only", "origin/master", "HEAD", "--", directory], capture_output=True, text=True
     )
-
-    print(result.stdout)
     changed_files = result.stdout.strip().split("\n")
-    print(changed_files)
     return [f for f in changed_files if f]
 
 def get_all_files(directory):
