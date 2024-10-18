@@ -2,7 +2,6 @@ import json
 import os
 import subprocess
 
-
 def get_diff_files(directory):
     """Get a list of modified files in the pull request from the given directory."""
     # Compare the current branch with the target branch (usually 'origin/master')
@@ -12,19 +11,23 @@ def get_diff_files(directory):
     changed_files = result.stdout.strip().split("\n")
     return [f for f in changed_files if f]
 
-
 def get_all_files(directory):
     """Get a list of all files in the given directory."""
     return [f for f in os.listdir(directory) if os.path.isfile(os.path)]
-
 
 def validate_correction_file(file_path):
     """Validate that no past data is modified in the correction file."""
 
     # Load the current (pre-PR) version of the file from master branch
-    current_corrections = subprocess.run(
+    current_version = subprocess.run(
         ["git", "show", f"origin/master:{file_path}"], capture_output=True, text=True
     ).stdout
+
+    if current_version:
+        print(f"Found current version of {file_path}, current_version = {current_version}")
+        current_corrections = json.loads(current_version)
+    else:
+        current_corrections = {}
 
     # Load the proposed version from the PR
     with open(file_path, "r") as f:
@@ -59,7 +62,6 @@ def validate_correction_file(file_path):
     print(f"Validation passed for {file_path}.")
     return True
 
-
 def validate_global_corrections(file_path):
     # Just check that if the is not "ONLINE" in the filename,
     # There is no value inside that has a "_dev" in it.
@@ -75,7 +77,6 @@ def validate_global_corrections(file_path):
 
     print(f"Validation passed for {file_path}.")
     return True
-
 
 def main():
     """Main function to validate all modified correction files."""
@@ -100,7 +101,6 @@ def main():
 
     print("All correction files validated successfully.")
     exit(0)
-
 
 if __name__ == "__main__":
     main()
