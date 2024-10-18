@@ -1,48 +1,39 @@
 import json
 import os
 import subprocess
-import requests
-
-# Define the GitHub URL where the current files are hosted
-GITHUB_RAW_URL = "https://raw.githubusercontent.com/XAMS-nikhef/amstrax_files/master/corrections/"
 
 def get_diff_files(directory):
     """Get a list of modified files in the pull request from the given directory."""
+    # Fetch the diff between the current branch and master
     result = subprocess.run(
-        ["git", "diff", "--name-only", "origin/master", "--", directory], 
-        capture_output=True, 
-        text=True
+        ["git", "diff", "--name-only", "HEAD^", "--", directory], capture_output=True, text=True
     )
     changed_files = result.stdout.strip().split("\n")
     return [f for f in changed_files if f]
 
-def get_current_file_from_github(file_path):
-    """Fetch the current version of the file from the GitHub raw URL."""
-    url = f"{GITHUB_RAW_URL}{file_path}"
-    response = requests.get(url)
-    if response.status_code == 200:
-        return response.text
-    else:
-        return None
+def get_all_files(directory):
+    """Get a list of all files in the given directory."""
+    return [f for f in os.listdir(directory) if os.path.isfile(os.path)]
 
 def validate_correction_file(file_path):
     """Validate that no past data is modified in the correction file."""
-    # Load the current (pre-PR) version of the file from GitHub
-    current_version = get_current_file_from_github(file_path)
+
+    # Load the current (pre-PR) version of the file from master branch
+    current_version = subprocess.run(
+        ["git", "show", f"origin/master:{file_path}"], capture_output=True, text=True
+    ).stdout
 
     if current_version:
         current_corrections = json.loads(current_version)
     else:
-        # If there's no current version, this is a new file, and no need to check for past changes.
-        print(f"New correction file {file_path}, skipping past modification checks.")
-        return True
+        current_corrections = {}
 
     # Load the proposed version from the PR
     with open(file_path, "r") as f:
         proposed_corrections = json.load(f)
 
-    # Get the highest possible run ID for "future"
-    current_time = "999999"
+    # Get the current time to define what is considered a "past" correction
+    current_time = "999999"  # Treat anything before the latest run ID as "past"
 
     for run_range, proposed_value in proposed_corrections.items():
         start_run, end_run = run_range.split("-")
@@ -71,7 +62,9 @@ def validate_correction_file(file_path):
     return True
 
 def validate_global_corrections(file_path):
-    """Validate that non-ONLINE global corrections do not contain '_dev'."""
+    # Just check that if the is not "ONLINE" in the filename,
+    # There is no value inside that has a "_dev" in it.
+
     with open(file_path, "r") as f:
         proposed_corrections = json.load(f)
 

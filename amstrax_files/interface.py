@@ -7,8 +7,6 @@ import requests
 export, __all__ = amstrax_files.exporter()
 
 GITHUB_RAW_URL = "https://raw.githubusercontent.com/XAMS-nikhef/amstrax_files/master/corrections/"
-GITHUB_RAW_URL = "https://raw.githubusercontent.com/XAMS-nikhef/amstrax_files/xams_corrections/corrections/"
-
 
 @export
 def list_files():
