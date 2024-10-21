@@ -2,6 +2,7 @@ import json
 import os
 import subprocess
 
+
 def get_diff_files(directory):
     """Get a list of modified files in the pull request from the given directory."""
     # Compare the current branch with the target branch (usually 'origin/master')
@@ -9,11 +10,14 @@ def get_diff_files(directory):
         ["git", "diff", "--name-only", "origin/master", "HEAD", "--", directory], capture_output=True, text=True
     )
     changed_files = result.stdout.strip().split("\n")
+    changed_files = [f for f in changed_files if f.endswith(".json")]
+
+    # because we put correction files in the corrections directory ( gain_to_pe/gain_to_pe_v1.json )
+    # we need to append the directory path to the file name
+    # changed_files = [os.path.join('_'.join(f.split('_')[:-1]), f) for f in changed_files]
+
     return [f for f in changed_files if f]
 
-def get_all_files(directory):
-    """Get a list of all files in the given directory."""
-    return [f for f in os.listdir(directory) if os.path.isfile(os.path)]
 
 def validate_correction_file(file_path):
     """Validate that no past data is modified in the correction file."""
@@ -62,6 +66,7 @@ def validate_correction_file(file_path):
     print(f"Validation passed for {file_path}.")
     return True
 
+
 def validate_global_corrections(file_path):
     # Just check that if the is not "ONLINE" in the filename,
     # There is no value inside that has a "_dev" in it.
@@ -78,10 +83,34 @@ def validate_global_corrections(file_path):
     print(f"Validation passed for {file_path}.")
     return True
 
+
+def check_name_matches_dirname(directory):
+
+    all_match = True
+
+    all_files = []
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if file.endswith(".json"):
+                # check if the filename starts with the directory name
+                if not file.startswith(os.path.basename(root)):
+                    print(f"Error: File {file} does not start with {os.path.basename(root)}")
+                    all_match = False
+
+    return all_match
+
+
 def main():
     """Main function to validate all modified correction files."""
     corrections_dir = "corrections/"
     modified_files = get_diff_files(corrections_dir)
+    print(f"Modified files: {modified_files}")
+
+    assert check_name_matches_dirname(corrections_dir), """
+    Error: Not all files start with the directory name.
+    Please make sure that the correction files are in the correct directory.
+    For example, elife_v0.json should be in corrections/elife/.
+    """
 
     if not modified_files:
         print("No correction files modified.")
@@ -99,8 +128,10 @@ def main():
             print(f"Validation failed for {file_name}.")
             exit(1)
 
+
     print("All correction files validated successfully.")
     exit(0)
+
 
 if __name__ == "__main__":
     main()
