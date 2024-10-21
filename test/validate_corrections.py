@@ -2,6 +2,7 @@ import json
 import os
 import subprocess
 
+
 def get_diff_files(directory):
     """Get a list of modified files in the pull request from the given directory."""
     # Compare the current branch with the target branch (usually 'origin/master')
@@ -12,7 +13,6 @@ def get_diff_files(directory):
     changed_files = [f for f in changed_files if f.endswith(".json")]
 
     return [f for f in changed_files if f]
-
 
 
 def validate_correction_file(file_path):
@@ -62,6 +62,7 @@ def validate_correction_file(file_path):
     print(f"Validation passed for {file_path}.")
     return True
 
+
 def validate_global_corrections(file_path):
     # Just check that if the is not "ONLINE" in the filename,
     # There is no value inside that has a "_dev" in it.
@@ -99,6 +100,7 @@ def main():
     """Main function to validate all modified correction files."""
     corrections_dir = "corrections/"
     modified_files = get_diff_files(corrections_dir)
+    print(f"Modified files: {modified_files}")
 
     if not modified_files:
         print("No correction files modified.")
@@ -124,6 +126,7 @@ def main():
 
     print("All correction files validated successfully.")
     exit(0)
+
 
 if __name__ == "__main__":
     main()
