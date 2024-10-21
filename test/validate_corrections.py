@@ -56,8 +56,6 @@ def validate_correction_file(file_path):
         start_run = start_run.zfill(6)
         end_run = end_run.zfill(6)
 
- 
-
         # Check if the run range exists in the current corrections
         if run_range in current_corrections:
             current_value = current_corrections[run_range]
