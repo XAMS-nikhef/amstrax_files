@@ -14,7 +14,7 @@ def get_diff_files(directory):
 
     # because we put correction files in the corrections directory ( gain_to_pe/gain_to_pe_v1.json )
     # we need to append the directory path to the file name
-    changed_files = [os.path.join('_'.join(f.split('_')[:-1]), f) for f in changed_files]
+    # changed_files = [os.path.join('_'.join(f.split('_')[:-1]), f) for f in changed_files]
 
     return [f for f in changed_files if f]
 
