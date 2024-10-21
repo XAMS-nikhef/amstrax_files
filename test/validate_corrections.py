@@ -7,7 +7,7 @@ def get_diff_files(directory):
     """Get a list of modified files in the pull request from the given directory."""
     # Compare the current branch with the target branch (usually 'origin/master')
     result = subprocess.run(
-        ["git", "diff", "--name-only", "origin/master", "HEAD", "--", directory], capture_output=True, text=True
+        ["git", "diff", "origin/master", "HEAD", "--", directory], capture_output=True, text=True
     )
     changed_files = result.stdout.strip().split("\n")
     changed_files = [f for f in changed_files if f.endswith(".json")]
