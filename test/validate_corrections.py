@@ -7,10 +7,14 @@ def get_diff_files(directory):
     """Get a list of modified files in the pull request from the given directory."""
     # Compare the current branch with the target branch (usually 'origin/master')
     result = subprocess.run(
-        ["git", "diff", "origin/master", "HEAD", "--", directory], capture_output=True, text=True
+        ["git", "diff", "--name-only", "origin/master", "HEAD", "--", directory], capture_output=True, text=True
     )
     changed_files = result.stdout.strip().split("\n")
     changed_files = [f for f in changed_files if f.endswith(".json")]
+
+    # because we put correction files in the corrections directory ( gain_to_pe/gain_to_pe_v1.json )
+    # we need to append the directory path to the file name
+    changed_files = [os.path.join('_'.join(f.split('_')[:-1]), f) for f in changed_files]
 
     return [f for f in changed_files if f]
 
@@ -102,6 +106,12 @@ def main():
     modified_files = get_diff_files(corrections_dir)
     print(f"Modified files: {modified_files}")
 
+    assert check_name_matches_dirname(), """
+    Error: Not all files start with the directory name.
+    Please make sure that the correction files are in the correct directory.
+    For example, elife_v0.json should be in corrections/elife/.
+    """
+
     if not modified_files:
         print("No correction files modified.")
         return
@@ -118,11 +128,6 @@ def main():
             print(f"Validation failed for {file_name}.")
             exit(1)
 
-    assert check_name_matches_dirname(), """
-    Error: Not all files start with the directory name.
-    Please make sure that the correction files are in the correct directory.
-    For example, elife_v0.json should be in corrections/elife/.
-    """
 
     print("All correction files validated successfully.")
     exit(0)
