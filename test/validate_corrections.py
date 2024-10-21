@@ -84,7 +84,7 @@ def validate_global_corrections(file_path):
     # Do not allow to change anything in a global correction file that is not ONLINE or ends with _dev
     # Load the current (pre-PR) version of the file from master branch
 
-    if "ONLINE" not in file_path or "_dev" not in file_path:
+    if "ONLINE" not in file_path and "_dev" not in file_path:
 
         current_version = subprocess.run(
             ["git", "show", f"origin/master:{file_path}"], capture_output=True, text=True
