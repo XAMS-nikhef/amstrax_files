@@ -45,8 +45,6 @@ def validate_correction_file(file_path):
 
     for run_range, proposed_value in proposed_corrections.items():
         start_run, end_run = run_range.split("-")
-        start_run = start_run.zfill(6)
-        end_run = end_run.zfill(6)
 
         # Treat '*' as "infinite future"
         if end_run == "*":
@@ -54,6 +52,11 @@ def validate_correction_file(file_path):
 
         if start_run == "*":
             start_run = "000000"
+
+        start_run = start_run.zfill(6)
+        end_run = end_run.zfill(6)
+
+ 
 
         # Check if the run range exists in the current corrections
         if run_range in current_corrections:

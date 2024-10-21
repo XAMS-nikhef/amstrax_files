@@ -52,8 +52,11 @@ To ensure the integrity of the corrections, a CI pipeline automatically validate
 - Past data protection: Verifying that no past corrections are modified.
 - Global corrections: Ensuring that global corrections are only modified in allowed cases (ONLINE or _dev).
 
-
 If any of these checks fail, the pull request will be blocked from merging until the issues are resolved.
+
+### How does it work? 
+
+The CI pipeline uses a Python script to validate the correction files. The workflow is defined in the .github/workflows/validate_correction.yml file. The python script is located in the test/ directory. The workflow runs the script on every pull request to the master branch. If the script fails, the pull request will be blocked from merging. Usually there is no need to modify the workflow, but it might be necessary to update the script if the validation rules change (for example, if new validation checks are added or if the format of the correction files changes).
 
 ## How to Add New Corrections
 
