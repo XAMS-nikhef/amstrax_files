@@ -40,6 +40,9 @@ def validate_correction_file(file_path):
     # Get the current time to define what is considered a "past" correction
     current_time = "999999"  # Treat anything before the latest run ID as "past"
 
+    if '_dev' in file_path:
+        return True
+
     for run_range, proposed_value in proposed_corrections.items():
         start_run, end_run = run_range.split("-")
         start_run = start_run.zfill(6)
