@@ -84,7 +84,7 @@ def validate_global_corrections(file_path):
     return True
 
 
-def check_name_matches_dirname():
+def check_name_matches_dirname(directory):
 
     all_match = True
 
@@ -106,7 +106,7 @@ def main():
     modified_files = get_diff_files(corrections_dir)
     print(f"Modified files: {modified_files}")
 
-    assert check_name_matches_dirname(), """
+    assert check_name_matches_dirname(corrections_dir), """
     Error: Not all files start with the directory name.
     Please make sure that the correction files are in the correct directory.
     For example, elife_v0.json should be in corrections/elife/.
