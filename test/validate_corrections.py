@@ -40,14 +40,23 @@ def validate_correction_file(file_path):
     # Get the current time to define what is considered a "past" correction
     current_time = "999999"  # Treat anything before the latest run ID as "past"
 
+    if '_dev' in file_path:
+        return True
+
     for run_range, proposed_value in proposed_corrections.items():
         start_run, end_run = run_range.split("-")
-        start_run = start_run.zfill(6)
-        end_run = end_run.zfill(6)
 
         # Treat '*' as "infinite future"
         if end_run == "*":
             end_run = "999999"
+
+        if start_run == "*":
+            start_run = "000000"
+
+        start_run = start_run.zfill(6)
+        end_run = end_run.zfill(6)
+
+ 
 
         # Check if the run range exists in the current corrections
         if run_range in current_corrections:
@@ -84,7 +93,7 @@ def validate_global_corrections(file_path):
     # Do not allow to change anything in a global correction file that is not ONLINE or ends with _dev
     # Load the current (pre-PR) version of the file from master branch
 
-    if "ONLINE" not in file_path or "_dev" not in file_path:
+    if "ONLINE" not in file_path and "_dev" not in file_path:
 
         current_version = subprocess.run(
             ["git", "show", f"origin/master:{file_path}"], capture_output=True, text=True
