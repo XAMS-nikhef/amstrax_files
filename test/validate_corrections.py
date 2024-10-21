@@ -9,11 +9,11 @@ def get_diff_files(directory):
         ["git", "diff", "--name-only", "origin/master", "HEAD", "--", directory], capture_output=True, text=True
     )
     changed_files = result.stdout.strip().split("\n")
+    changed_files = [f for f in changed_files if f.endswith(".json")]
+
     return [f for f in changed_files if f]
 
-def get_all_files(directory):
-    """Get a list of all files in the given directory."""
-    return [f for f in os.listdir(directory) if os.path.isfile(os.path)]
+
 
 def validate_correction_file(file_path):
     """Validate that no past data is modified in the correction file."""
@@ -78,6 +78,23 @@ def validate_global_corrections(file_path):
     print(f"Validation passed for {file_path}.")
     return True
 
+
+def check_name_matches_dirname():
+
+    all_match = True
+
+    all_files = []
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if file.endswith(".json"):
+                # check if the filename starts with the directory name
+                if not file.startswith(os.path.basename(root)):
+                    print(f"Error: File {file} does not start with {os.path.basename(root)}")
+                    all_match = False
+
+    return all_match
+
+
 def main():
     """Main function to validate all modified correction files."""
     corrections_dir = "corrections/"
@@ -98,6 +115,12 @@ def main():
         if not validate:
             print(f"Validation failed for {file_name}.")
             exit(1)
+
+    assert check_name_matches_dirname(), """
+    Error: Not all files start with the directory name.
+    Please make sure that the correction files are in the correct directory.
+    For example, elife_v0.json should be in corrections/elife/.
+    """
 
     print("All correction files validated successfully.")
     exit(0)
