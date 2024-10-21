@@ -80,6 +80,30 @@ def validate_global_corrections(file_path):
                 print(f"Error: Found '_dev' in global correction {file_path}.")
                 return False
 
+
+    # Do not allow to change anything in a global correction file that is not ONLINE or ends with _dev
+    # Load the current (pre-PR) version of the file from master branch
+
+    if "ONLINE" not in file_path or "_dev" not in file_path:
+
+        current_version = subprocess.run(
+            ["git", "show", f"origin/master:{file_path}"], capture_output=True, text=True
+        ).stdout
+
+        if current_version:
+            print(f"Found current version of {file_path}, current_version = {current_version}")
+            current_corrections = json.loads(current_version)
+
+            for run_range, proposed_value in proposed_corrections.items():
+                if run_range in current_corrections:
+                    current_value = current_corrections[run_range]
+                    if proposed_value != current_value:
+                        print(f"Error: Global correction {file_path} is being modified.")
+                        return False
+
+
+
+
     print(f"Validation passed for {file_path}.")
     return True
 
