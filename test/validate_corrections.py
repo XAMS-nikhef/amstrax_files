@@ -83,9 +83,11 @@ def validate_global_corrections(file_path):
 
     if "ONLINE" not in file_path:
         for run_range, proposed_value in proposed_corrections.items():
-            if "_dev" in proposed_value:
-                print(f"Error: Found '_dev' in global correction {file_path}.")
-                return False
+            # if prposed value is a string
+            if isinstance(proposed_value, str):
+                if "_dev" in proposed_value:
+                    print(f"Error: Found '_dev' in global correction {file_path}.")
+                    return False
 
 
     # Do not allow to change anything in a global correction file that is not ONLINE or ends with _dev
