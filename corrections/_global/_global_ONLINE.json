@@ -2,5 +2,17 @@
     "elife": "elife_dev.json",
     "gain_to_pe_array": "gain_to_pe_array_dev.json",
     "pos_rec_params": "pos_rec_params_dev.json",
-    "s1_map": "s1_map_dev.json"
+    "s1_map": "s1_map_dev.json",
+
+    "s1_min_area": 1,
+    "s2_min_area": 100,
+    "s2_min_width": 600,
+    "s1_max_width": 140,
+    "s1_max_area_fraction_top": 1,
+    "s1_min_channels": 1,
+    "s2_min_channels": 1,
+    "left_event_extension": 50000,
+    "right_event_extension": 50000,
+    "electron_drift_velocity": 0.0015,
+    "electron_drift_time_gate": 5000
 }
