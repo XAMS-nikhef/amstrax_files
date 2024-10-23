@@ -1,8 +1,8 @@
 {
-    "elife": "elife_dev.json",
-    "gain_to_pe_array": "gain_to_pe_array_dev.json",
-    "pos_rec_params": "pos_rec_params_dev.json",
-    "s1_map": "s1_map_dev.json",
+    "elife": "elife_v1.json",
+    "gain_to_pe_array": "gain_to_pe_array_v1.json",
+    "pos_rec_params": "pos_rec_params_v0.json",
+    "s1_map": "s1_map_v0.json",
 
     "s1_min_area": 1,
     "s2_min_area": 100,
