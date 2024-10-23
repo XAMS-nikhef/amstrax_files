@@ -93,6 +93,11 @@ def validate_correction_file(file_path):
     with open(file_path, "r") as f:
         proposed_corrections = json.load(f)
 
+    print(f"The current version of {file_path} is:")
+    print(current_corrections)
+    print(f"The proposed version of {file_path} is:")
+    print(proposed_corrections)
+
     # Compare current and proposed ranges
     if not compare_ranges(current_corrections, proposed_corrections):
         print(f"Validation failed for {file_path}.")
