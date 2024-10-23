@@ -19,6 +19,63 @@ def get_diff_files(directory):
     return [f for f in changed_files if f]
 
 
+def parse_range(run_range):
+    """Convert a run range like '001110-004020' to a tuple of integers (1110, 4020)."""
+    start_run, end_run = run_range.split("-")
+    
+    if end_run == "*":
+        end_run = "999999"  # Treat * as infinite future
+    if start_run == "*":
+        start_run = "000000"  # Treat * as infinite past
+
+    return int(start_run.zfill(6)), int(end_run.zfill(6))
+
+
+def compare_ranges(current_corrections, proposed_corrections):
+    """Compare current and proposed ranges without flattening."""
+    
+    # Sort ranges by start, then by end
+    current_ranges = sorted((parse_range(k), v) for k, v in current_corrections.items())
+    proposed_ranges = sorted((parse_range(k), v) for k, v in proposed_corrections.items())
+
+    current_index = 0
+    max_current_end = 0
+
+    for (start_run, end_run), proposed_value in proposed_ranges:
+        
+        # Check if this proposed range overlaps with an existing range
+        while current_index < len(current_ranges):
+            (cur_start, cur_end), current_value = current_ranges[current_index]
+
+            # If this proposed range overlaps with the current range
+            if start_run <= cur_end and end_run >= cur_start:
+                # Ensure the values for the overlapping part are the same
+                if proposed_value != current_value:
+                    print(f"Error: Proposed range {start_run}-{end_run} modifies an existing run range "
+                          f"({cur_start}-{cur_end}) from {current_value} to {proposed_value}.")
+                    return False
+                else:
+                    # Move to the next current range
+                    current_index += 1
+                    max_current_end = max(max_current_end, cur_end)
+                    break
+            else:
+                # If this current range is entirely before the proposed range, move on
+                if cur_end < start_run:
+                    current_index += 1
+                    max_current_end = max(max_current_end, cur_end)
+                else:
+                    # If this current range is after the proposed one, stop
+                    break
+
+        # Ensure no overlap with past ranges
+        if start_run < max_current_end:
+            print(f"Error: Proposed range {start_run}-{end_run} overlaps with past ranges.")
+            return False
+
+    return True
+
+
 def validate_correction_file(file_path):
     """Validate that no past data is modified in the correction file."""
 
@@ -28,7 +85,6 @@ def validate_correction_file(file_path):
     ).stdout
 
     if current_version:
-        print(f"Found current version of {file_path}, current_version = {current_version}")
         current_corrections = json.loads(current_version)
     else:
         current_corrections = {}
@@ -37,41 +93,14 @@ def validate_correction_file(file_path):
     with open(file_path, "r") as f:
         proposed_corrections = json.load(f)
 
-    # Get the current time to define what is considered a "past" correction
-    current_time = "999999"  # Treat anything before the latest run ID as "past"
-
-    if '_dev' in file_path:
-        return True
-
-    for run_range, proposed_value in proposed_corrections.items():
-        start_run, end_run = run_range.split("-")
-
-        # Treat '*' as "infinite future"
-        if end_run == "*":
-            end_run = "999999"
-
-        if start_run == "*":
-            start_run = "000000"
-
-        start_run = start_run.zfill(6)
-        end_run = end_run.zfill(6)
-
-        # Check if the run range exists in the current corrections
-        if run_range in current_corrections:
-            current_value = current_corrections[run_range]
-
-            # Ensure no modification of past ranges
-            if int(end_run) < int(current_time) and proposed_value != current_value:
-                print(f"Error: Past range {run_range} is being modified.")
-                return False
-        else:
-            # Ensure new ranges are added only in the future
-            if int(start_run) < int(current_time):
-                print(f"Error: New range {run_range} starts in the past.")
-                return False
+    # Compare current and proposed ranges
+    if not compare_ranges(current_corrections, proposed_corrections):
+        print(f"Validation failed for {file_path}.")
+        return False
 
     print(f"Validation passed for {file_path}.")
     return True
+
 
 
 def validate_global_corrections(file_path):
