@@ -36,6 +36,11 @@ def validate_correction_file(file_path):
     with open(file_path, "r") as f:
         proposed_corrections = json.load(f)
     
+    print(f"-- Current correction ranges:")
+    print(current_corrections)
+    print(f"-- Proposed correction ranges:")
+    print(proposed_corrections)
+
     # Flatten the ranges into individual runs
     def flatten_ranges(corrections):
         flat = {}
