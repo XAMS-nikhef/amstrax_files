@@ -19,93 +19,44 @@ def get_diff_files(directory):
     return [f for f in changed_files if f]
 
 
-def parse_range(run_range):
-    """Convert a run range like '001110-004020' to a tuple of integers (1110, 4020)."""
-    start_run, end_run = run_range.split("-")
-    
-    if end_run == "*":
-        end_run = "999999"  # Treat * as infinite future
-    if start_run == "*":
-        start_run = "000000"  # Treat * as infinite past
-
-    return int(start_run.zfill(6)), int(end_run.zfill(6))
-
-
-def compare_ranges(current_corrections, proposed_corrections):
-    """Compare current and proposed ranges without flattening."""
-    
-    # Sort ranges by start, then by end
-    current_ranges = sorted((parse_range(k), v) for k, v in current_corrections.items())
-    proposed_ranges = sorted((parse_range(k), v) for k, v in proposed_corrections.items())
-
-    current_index = 0
-    max_current_end = 0
-
-    for (start_run, end_run), proposed_value in proposed_ranges:
-        
-        # Check if this proposed range overlaps with an existing range
-        while current_index < len(current_ranges):
-            (cur_start, cur_end), current_value = current_ranges[current_index]
-
-            # If this proposed range overlaps with the current range
-            if start_run <= cur_end and end_run >= cur_start:
-                # Ensure the values for the overlapping part are the same
-                if proposed_value != current_value:
-                    print(f"Error: Proposed range {start_run}-{end_run} modifies an existing run range "
-                          f"({cur_start}-{cur_end}) from {current_value} to {proposed_value}.")
-                    return False
-                else:
-                    # Move to the next current range
-                    current_index += 1
-                    max_current_end = max(max_current_end, cur_end)
-                    break
-            else:
-                # If this current range is entirely before the proposed range, move on
-                if cur_end < start_run:
-                    current_index += 1
-                    max_current_end = max(max_current_end, cur_end)
-                else:
-                    # If this current range is after the proposed one, stop
-                    break
-
-        # Ensure no overlap with past ranges
-        if start_run < max_current_end:
-            print(f"Error: Proposed range {start_run}-{end_run} overlaps with past ranges.")
-            return False
-
-    return True
-
-
 def validate_correction_file(file_path):
     """Validate that no past data is modified in the correction file."""
-
+    
     # Load the current (pre-PR) version of the file from master branch
     current_version = subprocess.run(
         ["git", "show", f"origin/master:{file_path}"], capture_output=True, text=True
     ).stdout
-
+    
     if current_version:
         current_corrections = json.loads(current_version)
     else:
         current_corrections = {}
-
+    
     # Load the proposed version from the PR
     with open(file_path, "r") as f:
         proposed_corrections = json.load(f)
-
-    print(f"The current version of {file_path} is:")
-    print(current_corrections)
-    print(f"The proposed version of {file_path} is:")
-    print(proposed_corrections)
-
-    # Compare current and proposed ranges
-    if not compare_ranges(current_corrections, proposed_corrections):
-        print(f"Validation failed for {file_path}.")
-        return False
-
+    
+    # Flatten the ranges into individual runs
+    def flatten_ranges(corrections):
+        flat = {}
+        for range_key, value in corrections.items():
+            start, end = map(int, range_key.split('-'))
+            for run_id in range(start, end + 1):
+                flat[run_id] = value
+        return flat
+    
+    flat_current = flatten_ranges(current_corrections)
+    flat_proposed = flatten_ranges(proposed_corrections)
+    
+    # Check if any run that was covered in the past has a different value now
+    for run_id, current_value in flat_current.items():
+        proposed_value = flat_proposed.get(run_id)
+        if proposed_value is not None and proposed_value != current_value:
+            print(f"Error: Proposed value for run {run_id} modifies past data.")
+            return False
+    
     print(f"Validation passed for {file_path}.")
     return True
-
 
 
 def validate_global_corrections(file_path):
