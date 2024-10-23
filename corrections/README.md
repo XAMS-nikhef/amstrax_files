@@ -44,6 +44,8 @@ Past data modification is not allowed: You cannot modify corrections that apply 
 
 - Global corrections: Any modifications to global corrections must be restricted. You cannot modify corrections in global files unless the file is related to the ONLINE version or marked as a development version (e.g., _dev). This is to ensure that the global corrections are consistent across all contexts.
 
+See the end of this document for a detailed explanation of the validation rules.
+
 ## Continuous Integration (CI) Validation
 
 To ensure the integrity of the corrections, a CI pipeline automatically validates any pull requests that modify these files. A GitHub Action is configured to trigger on pull requests to the master branch. The validation includes:
@@ -68,3 +70,160 @@ The CI pipeline uses a Python script to validate the correction files. The workf
 - If the validation fails, address the issues and push the changes to the branch.
 - If the validation passes, the pull request can be merged.
 
+-----------------------------
+
+
+
+# Correction Validation Rules
+
+This document explains the validation rules for corrections when making changes or pull requests. The goal is to prevent any modification of values for runs that have already been processed, while allowing flexibility to extend ranges and add future corrections.
+
+## Allowed Operations
+
+1. **Extending a Range into the Future**  
+   *Current Correction File:*
+   ```json
+   {
+       "001110-004020": 5600,
+       "004021-006000": 6000
+   }
+   ```
+   *Proposed Change (Extending the last range):*
+   ```json
+   {
+       "001110-004020": 5600,
+       "004021-006500": 6000
+   }
+   ```
+   **Explanation:**  
+   This is allowed because you are only extending the **end of the last range** into the future. You’re not modifying any values for runs that were already covered (e.g., 004021-006000), and you're just extending the coverage.
+
+2. **Adding a New Future Range**  
+   *Current Correction File:*
+   ```json
+   {
+       "001110-004020": 5600,
+       "004021-006000": 6000
+   }
+   ```
+   *Proposed Change (Adding a new range after the last one):*
+   ```json
+   {
+       "001110-004020": 5600,
+       "004021-006000": 6000,
+       "006001-007000": 6200
+   }
+   ```
+   **Explanation:**  
+   This is allowed because the new range starts **after the last range**, so you’re not modifying any values that have already been processed.
+
+3. **Adding a New Range Before the First One**  
+   *Current Correction File:*
+   ```json
+   {
+       "001110-004020": 5600,
+       "004021-006000": 6000
+   }
+   ```
+   *Proposed Change (Adding a new range before the first one):*
+   ```json
+   {
+       "000500-001109": 5400,
+       "001110-004020": 5600,
+       "004021-006000": 6000
+   }
+   ```
+   **Explanation:**  
+   This is allowed because the new range starts **before the first existing range**, and it doesn't overlap or modify any runs that were already included.
+
+4. **Extending the Start of a Range Backward**  
+   *Current Correction File:*
+   ```json
+   {
+       "001110-004020": 5600,
+       "004021-006000": 6000
+   }
+   ```
+   *Proposed Change (Extending the start of a range backward):*
+   ```json
+   {
+       "001000-004020": 5600,
+       "004021-006000": 6000
+   }
+   ```
+   **Explanation:**  
+   This is allowed because you're extending the start of the range **backward into previously uncovered runs**. However, you’re not modifying any values for runs that were already included.
+
+## Not Allowed Operations
+
+1. **Modifying a Value in an Existing Range**  
+   *Current Correction File:*
+   ```json
+   {
+       "001110-004020": 5600,
+       "004021-006000": 6000
+   }
+   ```
+   *Proposed Change (Modifying an existing value):*
+   ```json
+   {
+       "001110-004020": 5700,  // Changed value
+       "004021-006000": 6000
+   }
+   ```
+   **Explanation:**  
+   This is **not allowed** because you’re changing the value for an existing range that already covers processed runs (`001110-004020`).
+
+2. **Overlapping Ranges**  
+   *Current Correction File:*
+   ```json
+   {
+       "001110-004020": 5600,
+       "004021-006000": 6000
+   }
+   ```
+   *Proposed Change (Overlapping the ranges):*
+   ```json
+   {
+       "001110-004020": 5600,
+       "003500-004500": 5800,  // Overlaps with existing range
+       "004021-006000": 6000
+   }
+   ```
+   **Explanation:**  
+   This is **not allowed** because the new range (`003500-004500`) overlaps with the existing range (`001110-004020`), and you’re introducing a new value (`5800`) for runs that are already covered.
+
+
+3. **Modifying a Past Range**  
+   *Current Correction File:*
+   ```json
+   {
+       "001110-004020": 5600,
+       "004021-006000": 6000
+   }
+   ```
+   *Proposed Change (Changing an already covered range):*
+   ```json
+   {
+       "001110-003500": 5600,  // Changed range end
+       "003501-004020": 5800,  // Changed value for runs already processed
+       "004021-006000": 6000
+   }
+   ```
+   **Explanation:**  
+   This is **not allowed** because you're modifying the end of an existing range and changing the value for runs that were already included in a processed range (`003501-004020`).
+
+## Summary of the Rules
+
+- **Allowed**:
+  - Extend a range into the future.
+  - Add new ranges in the future (after the latest range).
+  - Add new ranges before the first existing range.
+  - Extend the start of a range backward, if it doesn’t overlap with another range.
+
+- **Not Allowed**:
+  - Modifying the value for any run that was already covered.
+  - Overlapping ranges (unless they have the same value).
+  - Changing the start or end of a range to cover runs that were already included.
+
+By following these rules, you ensure that no corrections are modified for any data that has already been processed, while still allowing flexibility to add or extend ranges in the future.

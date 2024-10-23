@@ -21,55 +21,45 @@ def get_diff_files(directory):
 
 def validate_correction_file(file_path):
     """Validate that no past data is modified in the correction file."""
-
+    
     # Load the current (pre-PR) version of the file from master branch
     current_version = subprocess.run(
         ["git", "show", f"origin/master:{file_path}"], capture_output=True, text=True
     ).stdout
-
+    
     if current_version:
-        print(f"Found current version of {file_path}, current_version = {current_version}")
         current_corrections = json.loads(current_version)
     else:
         current_corrections = {}
-
+    
     # Load the proposed version from the PR
     with open(file_path, "r") as f:
         proposed_corrections = json.load(f)
+    
+    print(f"-- Current correction ranges:")
+    print(current_corrections)
+    print(f"-- Proposed correction ranges:")
+    print(proposed_corrections)
 
-    # Get the current time to define what is considered a "past" correction
-    current_time = "999999"  # Treat anything before the latest run ID as "past"
-
-    if '_dev' in file_path:
-        return True
-
-    for run_range, proposed_value in proposed_corrections.items():
-        start_run, end_run = run_range.split("-")
-
-        # Treat '*' as "infinite future"
-        if end_run == "*":
-            end_run = "999999"
-
-        if start_run == "*":
-            start_run = "000000"
-
-        start_run = start_run.zfill(6)
-        end_run = end_run.zfill(6)
-
-        # Check if the run range exists in the current corrections
-        if run_range in current_corrections:
-            current_value = current_corrections[run_range]
-
-            # Ensure no modification of past ranges
-            if int(end_run) < int(current_time) and proposed_value != current_value:
-                print(f"Error: Past range {run_range} is being modified.")
-                return False
-        else:
-            # Ensure new ranges are added only in the future
-            if int(start_run) < int(current_time):
-                print(f"Error: New range {run_range} starts in the past.")
-                return False
-
+    # Flatten the ranges into individual runs
+    def flatten_ranges(corrections):
+        flat = {}
+        for range_key, value in corrections.items():
+            start, end = map(int, range_key.split('-'))
+            for run_id in range(start, end + 1):
+                flat[run_id] = value
+        return flat
+    
+    flat_current = flatten_ranges(current_corrections)
+    flat_proposed = flatten_ranges(proposed_corrections)
+    
+    # Check if any run that was covered in the past has a different value now
+    for run_id, current_value in flat_current.items():
+        proposed_value = flat_proposed.get(run_id)
+        if proposed_value is not None and proposed_value != current_value:
+            print(f"Error: Proposed value for run {run_id} modifies past data.")
+            return False
+    
     print(f"Validation passed for {file_path}.")
     return True
 
