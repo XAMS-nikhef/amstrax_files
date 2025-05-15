@@ -13,6 +13,7 @@
     "s2_min_channels": 1,
     "left_event_extension": 50000,
     "right_event_extension": 50000,
-    "electron_drift_velocity": 0.0015,
+    "max_drift_length": 52,
+    "electron_drift_velocity": 0.00104,
     "electron_drift_time_gate": 5000
 }
