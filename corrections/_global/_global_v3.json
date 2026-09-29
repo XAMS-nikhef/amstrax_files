@@ -1,0 +1,22 @@
+{
+    "elife": "elife_v2.json",
+    "gain_to_pe_array": "gain_to_pe_array_v2.json",
+    "pos_rec_params": "pos_rec_params_v0.json",
+    "drift_time_gate": "drift_time_gate_v0.json",
+    "drift_time_cathode": "drift_time_cathode_v0.json",
+    "gate_cathode_distance": 51.8,
+    "s1_naive_z_correction": [-51.8, 0.0, 700.0, -13.28],
+
+    "s1_min_area": 10,
+    "s1_min_width": 10,
+    "s1_max_width": 100,
+    "s2_min_area": 100,
+    "s2_min_width": 150,
+    "s1_max_area_fraction_top": 1,
+    "s1_min_channels": 1,
+    "s2_min_channels": 1,
+    "left_event_extension": 50000,
+    "right_event_extension": 50000,
+    "max_drift_length": 52,
+    "electron_drift_velocity": 0.00104
+}
