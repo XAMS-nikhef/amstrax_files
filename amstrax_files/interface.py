@@ -1,5 +1,4 @@
 import os
-import pkg_resources
 import amstrax_files
 from amstrax_files.utils import read_file
 import requests
@@ -77,7 +76,8 @@ def _get_file(file_name, get_from):
 
 def _package_path(sub_directory):
     """Get the abs path of the requested sub folder"""
-    return pkg_resources.resource_filename("amstrax_files", f"../{sub_directory}")
+    # same as pkg_resources.resource_filename("amstrax_files", f"../{sub_directory}"); pkg_resources is gone in new setuptools
+    return os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", sub_directory))
 
 
 def _list_files(path):
