@@ -41,27 +41,44 @@ def validate_correction_file(file_path):
     print(f"-- Proposed correction ranges:")
     print(proposed_corrections)
 
-    # Flatten the ranges into individual runs
+    # Flatten the ranges into individual runs ('*' = open start / end, only allowed in _dev files)
+    def bounds(range_key):
+        start, end = range_key.split('-')
+        return (0 if start == '*' else int(start)), (999999 if end == '*' else int(end))
+
     def flatten_ranges(corrections):
         flat = {}
         for range_key, value in corrections.items():
-            start, end = map(int, range_key.split('-'))
+            start, end = bounds(range_key)
             for run_id in range(start, end + 1):
                 flat[run_id] = value
         return flat
-    
+
     flat_current = flatten_ranges(current_corrections)
     flat_proposed = flatten_ranges(proposed_corrections)
-    
-    # Check if any run that was covered in the past has a different value now
-    for run_id, current_value in flat_current.items():
-        proposed_value = flat_proposed.get(run_id)
-        if proposed_value is not None and proposed_value != current_value:
-            print(f"Error: Proposed value for run {run_id} modifies past data.")
-            return False
-    
-    print(f"Validation passed for {file_path}.")
-    return True
+
+    # Runs that were covered before and get a different value now
+    changed = sorted(run_id for run_id, current_value in flat_current.items()
+                     if flat_proposed.get(run_id) is not None and flat_proposed[run_id] != current_value)
+    if not changed:
+        print(f"Validation passed for {file_path}.")
+        return True
+
+    # _dev files (online processing): only the tail may change, i.e. all changed runs lie in the last range of the
+    # proposed file, that range is open-ended ('*'), and it is either new or replaces null (no values yet). The author
+    # must make sure that no run in that range has been processed with this file yet.
+    if "_dev" in os.path.basename(file_path) and proposed_corrections:
+        last_key = list(proposed_corrections)[-1]
+        start, _ = bounds(last_key)
+        tail_ok = (last_key.endswith("-*") and changed[0] >= start
+                   and (last_key not in current_corrections or current_corrections[last_key] is None))
+        if tail_ok:
+            print(f"Validation passed for {file_path}: new values for runs >= {start:06d} (open range {last_key}). "
+                  f"Make sure no run >= {start:06d} was processed with this file.")
+            return True
+
+    print(f"Error: Proposed value for run {changed[0]} modifies past data.")
+    return False
 
 
 def validate_global_corrections(file_path):
