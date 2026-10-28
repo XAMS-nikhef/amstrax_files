@@ -3,5 +3,8 @@
     "pos_rec_map": "pos_rec_map_v2.json",
     "s1_max_area_fraction_top": 1.0,
     "s1_min_channels": 3,
-    "s2_min_channels": 2
+    "s2_min_channels": 2,
+    "left_event_extension": 50000,
+    "right_event_extension": 50000,
+    "trigger_min_area": 200
 }
