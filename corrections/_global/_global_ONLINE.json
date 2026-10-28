@@ -1,5 +1,5 @@
 {
-    "gain_to_pe_array": "gain_to_pe_array_online_dev.json",
+    "gain_to_pe_array": "gain_to_pe_array_online.json",
     "pos_rec_map": "pos_rec_map_v2.json",
     "s1_max_area_fraction_top": 1.0,
     "s1_min_channels": 3,

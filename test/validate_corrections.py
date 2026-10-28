@@ -64,13 +64,14 @@ def validate_correction_file(file_path):
         print(f"Validation passed for {file_path}.")
         return True
 
-    # _dev files (online processing): only the tail may change, i.e. all changed runs lie in the last range of the
-    # proposed file, that range is open-ended ('*'), and it is either new or replaces null (no values yet). The author
-    # must make sure that no run in that range has been processed with this file yet.
-    if "_dev" in os.path.basename(file_path) and proposed_corrections:
+    # Online files (<name>_online.json, also _dev): only the tail may change, i.e. all changed runs lie in the last
+    # range of the proposed file, that range is open-ended ('*' or 999999), and it is either new or replaces null (no
+    # values yet). The author must make sure that no run in that range has been processed with this file yet.
+    base = os.path.basename(file_path)
+    if (base.endswith("_online.json") or "_dev" in base) and proposed_corrections:
         last_key = list(proposed_corrections)[-1]
-        start, _ = bounds(last_key)
-        tail_ok = (last_key.endswith("-*") and changed[0] >= start
+        start, end = bounds(last_key)
+        tail_ok = (end == 999999 and changed[0] >= start
                    and (last_key not in current_corrections or current_corrections[last_key] is None))
         if tail_ok:
             print(f"Validation passed for {file_path}: new values for runs >= {start:06d} (open range {last_key}). "
