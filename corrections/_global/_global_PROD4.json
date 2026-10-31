@@ -1,0 +1,17 @@
+{
+ "gain_to_pe_array": "gain_to_pe_array_v7.json",
+ "elife": "elife_v4.json",
+ "pos_rec_map": "pos_rec_map_v2.json",
+ "s1_min_area": 10,
+ "s1_min_width": 10,
+ "s1_max_width": 150,
+ "s1_min_channels": 3,
+ "s1_max_area_fraction_top": 1.0,
+ "s2_min_channels": 2,
+ "s2_min_width": 200,
+ "left_event_extension": 100000,
+ "right_event_extension": 50000,
+ "trigger_min_area": 200,
+ "sr_corrections": "sr_corrections_v1.json",
+ "sr_maps": "sr_maps_v1.json"
+}
