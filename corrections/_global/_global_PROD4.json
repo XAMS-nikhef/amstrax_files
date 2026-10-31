@@ -13,5 +13,8 @@
  "right_event_extension": 50000,
  "trigger_min_area": 200,
  "sr_corrections": "sr_corrections_v1.json",
- "sr_maps": "sr_maps_v1.json"
+ "sr_maps": "sr_maps_v1.json",
+ "drift_time_gate": "drift_time_gate_v2.json",
+ "drift_time_cathode": "drift_time_cathode_v2.json",
+ "gate_cathode_distance": 51.8
 }
