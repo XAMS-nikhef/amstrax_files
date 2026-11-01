@@ -4,13 +4,17 @@ This is a file dump that allows easy access via github for auxiliary files in am
 
 ## Simulated runs (900000-999999)
 
-Simulated runs (xams-sim) are reconstructed with an MC global version, `corrections/_global/_global_MC1.json`: the cuts
-and settings of the data version v5, with the per-run corrections (elife, gain_to_pe_array, drift_time_gate,
-drift_time_cathode) read from the run's own run document (`rundoc://`, calibrated if present, else the simulation's
-true value; `amstrax.contexts.for_mc_run`). Per-run MC values therefore never go into the correction files here; only
-maps shared by MC runs do (the MC ranges of `pos_rec_map_v0.json`). `_global_v5.json` (and `elife_v3`,
-`gain_to_pe_array_v4`, `drift_time_gate_v1`, `drift_time_cathode_v1`) were made for the first MC test runs and are, for
-data, identical to v4; data stay on v4.
+Simulated runs (xams-sim) are reconstructed with an MC global version: the cuts and settings of a data version, with
+the per-run corrections (elife, gain_to_pe_array, drift_time_gate, drift_time_cathode) read from the run's own run
+document (`rundoc://`, calibrated if present, else the simulation's true value; `amstrax.contexts.for_mc_run`). Per-run
+MC values therefore never go into the correction files here; only maps shared by MC runs do.
+
+- `_global_MC2.json` (current): data version PROD4 (position map `pos_rec_map_v2`, S1/S2 cuts, event extension,
+  trigger_min_area), without `sr_corrections` / `sr_maps` (energy corrections calibrated on data; MC gets the
+  per-run corrections from its run document instead).
+- `_global_MC1.json` (until 2026-11-01): data version v5 (`pos_rec_map_v0`, old cuts). `_global_v5.json` (and
+  `elife_v3`, `gain_to_pe_array_v4`, `drift_time_gate_v1`, `drift_time_cathode_v1`) were made for the first MC test
+  runs and are, for data, identical to v4.
 
 # This repo is structured as a package. To interact:
 ## Install:
