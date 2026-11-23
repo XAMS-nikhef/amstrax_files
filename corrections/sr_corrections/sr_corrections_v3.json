@@ -1,0 +1,881 @@
+{
+ "000000-007758": null,
+ "007759-007789": null,
+ "007790-007837": {
+  "set": "R900",
+  "condition": "R900",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 0.2629336784143483,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007838-007842": {
+  "set": "R900A22",
+  "condition": "R900A22",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 0.3529875912894002,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007843-007843": null,
+ "007844-007849": {
+  "set": "R900A23",
+  "condition": "R900A23",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 0.46208489630516064,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007850-007857": {
+  "set": "R900S",
+  "condition": "R900S",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 0.2629336784143483,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007858-007858": null,
+ "007859-007861": {
+  "set": "R900S",
+  "condition": "R900S",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 0.2629336784143483,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007862-007864": null,
+ "007865-007869": {
+  "set": "R900F",
+  "condition": "R900F",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 0.25466946574340105,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007870-007870": null,
+ "007871-007871": {
+  "set": "R900F",
+  "condition": "R900F",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 0.25466946574340105,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007872-007872": null,
+ "007873-007878": {
+  "set": "R900P90",
+  "condition": "R900P90",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 0.2570978245541503,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007879-007884": {
+  "set": "R900M90",
+  "condition": "R900M90",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 0.25725754671228296,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007885-007900": {
+  "set": "R900B",
+  "condition": "R900B",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 0.2629336784143483,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007901-007908": null,
+ "007909-007911": {
+  "set": "D25",
+  "condition": "D25",
+  "tau": {
+   "fixed_us": 389.4595303983265
+  },
+  "g1": 0.06997524906998047,
+  "g2_top": 0.28293483555721555,
+  "energy_scale_folded": 0.972713670913276,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007912-007914": {
+  "set": "D50",
+  "condition": "D50",
+  "tau": {
+   "fixed_us": 421.5062554605378
+  },
+  "g1": 0.06844402541255483,
+  "g2_top": 0.27277481399277037,
+  "energy_scale_folded": 0.9883820646460955,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007915-007916": null,
+ "007917-007919": {
+  "set": "D75",
+  "condition": "D75",
+  "tau": {
+   "fixed_us": 379.04064155582466
+  },
+  "g1": 0.06786823204259886,
+  "g2_top": 0.2746898023182917,
+  "energy_scale_folded": 0.9884754041615261,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007920-007922": {
+  "set": "D125",
+  "condition": "D125",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06580647868577923,
+  "g2_top": 0.2747177234070826,
+  "energy_scale_folded": 1.0023411267629634,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007923-007925": {
+  "set": "D135",
+  "condition": "D135",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.0656211240562929,
+  "g2_top": 0.27564806077317217,
+  "energy_scale_folded": 1.0017419439058992,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007926-007928": {
+  "set": "D140",
+  "condition": "D140",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06559626337557667,
+  "g2_top": 0.2763997530302013,
+  "energy_scale_folded": 1.0004057424327517,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007929-007929": {
+  "set": "R900T",
+  "condition": "R900T",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 0.2629336784143483,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007930-007932": {
+  "set": "D150",
+  "condition": "D150",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.0652839623418619,
+  "g2_top": 0.27508382550403104,
+  "energy_scale_folded": 1.0051914162228917,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007933-007935": {
+  "set": "PG1",
+  "condition": "PG1",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 0.30450393294341715,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007936-007938": {
+  "set": "PG2",
+  "condition": "PG2",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 0.3533601335372415,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007939-007941": {
+  "set": "PG3",
+  "condition": "PG3",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 0.5875888201195101,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007942-007942": {
+  "set": "PG4",
+  "condition": "PG4",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 0.9178431076864008,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "near the calibration line only (Cs-137 662): S2_top is non-linear at \u0394V >= 3.2 kV (v9 closure: MH6 Na +7 % with Cs +0.7 %, MH2 Co -5 %)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007943-007944": null,
+ "007945-007946": {
+  "set": "PG4",
+  "condition": "PG4",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 0.9178431076864008,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "near the calibration line only (Cs-137 662): S2_top is non-linear at \u0394V >= 3.2 kV (v9 closure: MH6 Na +7 % with Cs +0.7 %, MH2 Co -5 %)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007947-007947": {
+  "set": "PG5",
+  "condition": "PG5",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 1.256915900388388,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "near the calibration line only (Cs-137 662): S2_top is non-linear at \u0394V >= 3.2 kV (v9 closure: MH6 Na +7 % with Cs +0.7 %, MH2 Co -5 %)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007948-007949": null,
+ "007950-007950": {
+  "set": "PG4b",
+  "condition": "PG4b",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06874490017447778,
+  "g2_top": 1.0820692294432053,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "near the calibration line only (Cs-137 662): S2_top is non-linear at \u0394V >= 3.2 kV (v9 closure: MH6 Na +7 % with Cs +0.7 %, MH2 Co -5 %)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007951-007955": null,
+ "007956-007956": {
+  "set": "BG16",
+  "condition": "BG16",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06904853600996795,
+  "g2_top": 0.2629336784143483,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007957-007968": {
+  "set": "P4B",
+  "condition": "P4B",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06904853600996795,
+  "g2_top": 0.2629336784143483,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007969-007969": null,
+ "007970-007980": {
+  "set": "P4B",
+  "condition": "P4B",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06904853600996795,
+  "g2_top": 0.2629336784143483,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007981-007983": null,
+ "007984-007986": {
+  "set": "MA",
+  "condition": "MA",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06904853600996795,
+  "g2_top": 0.2629336784143483,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007987-007995": {
+  "set": "FN25",
+  "condition": "FN25",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.0679877102315344,
+  "g2_top": 0.2748985086860253,
+  "energy_scale_folded": 1.0011497837496055,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "007996-008004": {
+  "set": "FN140",
+  "condition": "FN140",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06549733935966236,
+  "g2_top": 0.2759829217632903,
+  "energy_scale_folded": 1.0019167069169996,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "008005-008011": {
+  "set": "FN50",
+  "condition": "FN50",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.0675797303345412,
+  "g2_top": 0.26933027770608975,
+  "energy_scale_folded": 1.0010227447648492,
+  "energy_calibrated": true,
+  "energy_valid": "all lines (closure v12)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "008012-008020": {
+  "set": "FN75",
+  "condition": "FN75",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06690945699364527,
+  "g2_top": 0.27080925731603694,
+  "energy_scale_folded": 1.0026397031499994,
+  "energy_calibrated": true,
+  "energy_valid": "between 511 and 662 keV only (Na 1275 -3.3 % with its own 2-line Doke; closure v10, user 06-11)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "008021-008023": {
+  "set": "MH2",
+  "condition": "MH2",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06904853600996795,
+  "g2_top": 1.0779070602683636,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "near the calibration line only (Cs-137 662): S2_top is non-linear at \u0394V >= 3.2 kV (v9 closure: MH6 Na +7 % with Cs +0.7 %, MH2 Co -5 %)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "008024-008024": null,
+ "008025-008025": {
+  "set": "MH2",
+  "condition": "MH2",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06904853600996795,
+  "g2_top": 1.0779070602683636,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "near the calibration line only (Cs-137 662): S2_top is non-linear at \u0394V >= 3.2 kV (v9 closure: MH6 Na +7 % with Cs +0.7 %, MH2 Co -5 %)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "008026-008027": {
+  "set": "MH3",
+  "condition": "MH3",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06904853600996795,
+  "g2_top": 1.2449439334697119,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "near the calibration line only (Cs-137 662): S2_top is non-linear at \u0394V >= 3.2 kV (v9 closure: MH6 Na +7 % with Cs +0.7 %, MH2 Co -5 %)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "008028-008029": {
+  "set": "MH4",
+  "condition": "MH4",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06904853600996795,
+  "g2_top": 1.423007009806252,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "near the calibration line only (Cs-137 662): S2_top is non-linear at \u0394V >= 3.2 kV (v9 closure: MH6 Na +7 % with Cs +0.7 %, MH2 Co -5 %)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "008030-008031": {
+  "set": "MH5",
+  "condition": "MH5",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06904853600996795,
+  "g2_top": 1.577618552770736,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "near the calibration line only (Cs-137 662): S2_top is non-linear at \u0394V >= 3.2 kV (v9 closure: MH6 Na +7 % with Cs +0.7 %, MH2 Co -5 %)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "008032-008049": {
+  "set": "MH6",
+  "condition": "MH6",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06904853600996795,
+  "g2_top": 1.719476366223357,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "near the calibration line only (Cs-137 662): S2_top is non-linear at \u0394V >= 3.2 kV (v9 closure: MH6 Na +7 % with Cs +0.7 %, MH2 Co -5 %)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "008050-008054": {
+  "set": "MN0",
+  "condition": "MN0",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06904853600996795,
+  "g2_top": 1.8958920718126426,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "near the calibration line only (Na-22 511): S2_top is non-linear at \u0394V >= 3.2 kV (v9 closure: MH6 Na +7 % with Cs +0.7 %, MH2 Co -5 %)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "008055-008058": null,
+ "008059-008066": {
+  "set": "TH6",
+  "condition": "TH6",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06904853600996795,
+  "g2_top": 1.5786806470055161,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "near the calibration line only (Cs-137 662): S2_top is non-linear at \u0394V >= 3.2 kV (v9 closure: MH6 Na +7 % with Cs +0.7 %, MH2 Co -5 %)",
+  "flag": null,
+  "corrections": "SR2026.3_v12"
+ },
+ "008067-008090": null,
+ "008091-008096": {
+  "set": "MN1",
+  "condition": "MN1",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06904853600996795,
+  "g2_top": 1.4922186020005925,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "near the calibration line only (Na-22 511): S2_top is non-linear at \u0394V >= 3.2 kV (v9 closure: MH6 Na +7 % with Cs +0.7 %, MH2 Co -5 %)",
+  "flag": "drift not stable (step 04)",
+  "corrections": "SR2026.3_v12"
+ },
+ "008097-008099": {
+  "set": "MN1col",
+  "condition": "MN1col",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06904853600996795,
+  "g2_top": 1.4794572683920522,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "near the calibration line only (Na-22 511): S2_top is non-linear at \u0394V >= 3.2 kV (v9 closure: MH6 Na +7 % with Cs +0.7 %, MH2 Co -5 %)",
+  "flag": "drift not stable (step 04)",
+  "corrections": "SR2026.3_v12"
+ },
+ "008100-008109": {
+  "set": "MN1",
+  "condition": "MN1",
+  "tau": {
+   "model": "exponential",
+   "params": [
+    0.0014145136620808997,
+    0.0013971657686537749,
+    5.405922439492164
+   ],
+   "t0_ns": 1.7931733940102456e+18
+  },
+  "g1": 0.06904853600996795,
+  "g2_top": 1.4922186020005925,
+  "energy_scale_folded": 1.0,
+  "energy_calibrated": true,
+  "energy_valid": "near the calibration line only (Na-22 511): S2_top is non-linear at \u0394V >= 3.2 kV (v9 closure: MH6 Na +7 % with Cs +0.7 %, MH2 Co -5 %)",
+  "flag": "drift not stable (step 04)",
+  "corrections": "SR2026.3_v12"
+ }
+}
