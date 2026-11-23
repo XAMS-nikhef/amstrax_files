@@ -1,0 +1,12 @@
+{
+ "000000-007758": null,
+ "007759-008109": {
+  "version": "s1_linearity_v1",
+  "model": "bottom S1 response f(S) = 1 + a ln(S / S0), S = bottom S1 area [PE] = s1_area (1 - s1_area_fraction_top), clamped to [S_min, S_max]; corrected bottom S1 = S / f(S); top S1 unchanged (taken as linear)",
+  "a": 0.0694,
+  "S0_PE": 2000.0,
+  "S_min_PE": 900.0,
+  "S_max_PE": 4500.0,
+  "source": "SR2026.3 studies/pmt_linearity.py test 1b (config/s1_linearity/v1.json, 2026-11-07): one-parameter fit chi2 14.8 / 16, bottom S1 990-3400 PE measured; derived at dV 2.75 kV, relative only (normalisation absorbed in g1)"
+ }
+}
