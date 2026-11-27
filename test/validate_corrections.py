@@ -54,6 +54,9 @@ def validate_correction_file(file_path):
                 flat[run_id] = value
         return flat
 
+    if not no_new_null_gains(file_path, current_corrections, proposed_corrections):
+        return False
+
     flat_current = flatten_ranges(current_corrections)
     flat_proposed = flatten_ranges(proposed_corrections)
 
@@ -80,6 +83,22 @@ def validate_correction_file(file_path):
 
     print(f"Error: Proposed value for run {changed[0]} modifies past data.")
     return False
+
+
+def no_new_null_gains(file_path, current_corrections, proposed_corrections):
+    """Online gains files (gain_to_pe_array_online / _dev) get no new null ranges (corrections workflow, 2026-11-27):
+    null means 1 PE per ADC, which breaks the classification and the job memory. A run without its own gains takes the
+    last known gains (the open last range) and is flagged provisional by the online loop. Null ranges that are already
+    on master stay (past runs)."""
+    base = os.path.basename(file_path)
+    if not (base.startswith("gain_to_pe_array") and (base.endswith("_online.json") or "_dev" in base)):
+        return True
+    new_null = [k for k, v in proposed_corrections.items() if v is None and current_corrections.get(k, 0) is not None]
+    if new_null:
+        print(f"Error: new null gains in {file_path} ({', '.join(new_null)}): online processing needs gains; "
+              f"leave the runs in the open last range (last known gains, flagged provisional) instead.")
+        return False
+    return True
 
 
 def validate_global_corrections(file_path):

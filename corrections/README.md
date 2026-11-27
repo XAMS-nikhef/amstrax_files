@@ -36,6 +36,20 @@ Example:
 
 Global correction files define a set of corrections that can easily be specified when initialising the context. We use online for live processing, and versioned corrections for the official offline processing.
 
+## Workflow (since 2026-11-27)
+
+Full text: [`docs/corrections_workflow.md`](../docs/corrections_workflow.md). In short:
+
+- Online processing runs `ONLINE` (`_global_ONLINE.json` → `*_online.json` files with an open last range).
+- New gains / elife for new runs: close the open range and open a new one (`"008200-999999"`) **before** those runs are
+  processed; the validator allows only this tail change in online files.
+- No new `null` gains in online files (validator): a run without its own gains takes the last known gains and is
+  flagged `provisional_gains` in its run document by the online loop.
+- Classification cuts are part of each global version.
+- Frozen versions (`vN`, `PRODn`) only for analysis; never changed afterwards.
+- The online version and the versions the dashboard treats as current are set in the run database (`daq.settings`
+  `online_corrections_version`, `current_corrections_versions`), not on command lines.
+
 
 ## Modifying Corrections
 Past data modification is not allowed: You cannot modify corrections that apply to past runs.
